@@ -91,8 +91,8 @@ const HomePage5 = ({ onScroll }) => {
       <div className="flex justify-center items-center ">
         <div className="hidden md:block bg-cover bg-center  w-full" style={{ backgroundImage: "url('HomePage5/Rectangle 1662.svg')", }}>
           <div className=" py-5 md:pt-10 xl:mt-20 2xl:pt-20 text-white text-center   space-y-2 lg:space-y-3">
-            <h1 className="text-lg sm:text-xl md:text-2xl lg:text-4xl 2xl:text-5xl font-semibold">FIND WHAT ARE YOU LOOKING FOR</h1>
-            <h1 className="text-sm sm:text-base md:text-lg lg:text-2xl 2xl:text-3xl font-medium">Over 40000 Latest BARGAINDIGGER</h1>
+            <h1 className="text-lg sm:text-xl md:text-2xl lg:text-4xl 2xl:text-5xl font-semibold">Find Your Dream Home</h1>
+            <h1 className="text-sm sm:text-base md:text-lg lg:text-2xl 2xl:text-3xl font-medium">Let’s find a home that’s perfect for you</h1>
           </div>
           <div className="flex justify-center  px-4  md:px-8 lg:px-20 2xl:px-36 pb-8 sm:py-10 md:py-10 lg:py-20 xl:pt-20 xl:pb-32 2xl:py-56">
             <div className="hidden md:block xl:w-3/4 bg-color5 space-y-4 px-8 py-7 2xl:py-9 rounded-lg bg-opacity-70">
@@ -164,71 +164,65 @@ const HomePage5 = ({ onScroll }) => {
 
 
       {/* Browser By Section */}
-      <div className=" pb-10 pt-8 2xl:pt-36 pl-4 xs:pl-6 md:pl-8 lg:px-20 2xl:px-28 w-full " >
+      <div className="bg-color5 bg-opacity-5 pb-10 pt-8 2xl:pt-36 pl-4 xs:pl-6 md:pl-8 lg:px-20 2xl:px-28 w-full " >
         <div className="pb-4 pr-4 xs:pr-6 lg:pb-6 2xl:py-0 2xl:pb-12 flex justify-between">
           <h3 className=" sm:text-left sm:text-xl lg:text-2xl 2xl:text-4xl font-bold text-color5">Browser By Section</h3>
-          <a href="/browse_by_make" className="lg:hidden outline-none focus:outline-none text-xs sm:text-base py-1 px-2 text-color13 hover:underline">View All</a>
         </div>
         {/* <!--  --> */}
+
         <div className="flex flex-col m-auto p-auto ">
           <div className="flex overflow-x-scroll lg:overflow-x-hidden pb-10 " >
             <div className=" flex flex-nowrap space-x-2 sm:space-x-4 lg:space-x-0 lg:w-full lg:grid lg:grid-cols-6 lg:mx-auto lg:gap-3 xl:gap-4 " >
 
               <div className="inline-block cursor-pointer">
-                <div className="w-28 h-24 sm:w-36 sm:h-32 lg:w-full lg:h-full max-w-xs overflow-hidden shadow-md hover:shadow-lg border rounded-sm md:rounded bg-white  duration-300 ease-in-out" >
+                <div className="w-28 md:w-full md:h-full max-w-xs overflow-hidden shadow-md hover:shadow-lg  rounded-sm md:rounded bg-white  duration-300 ease-in-out" >
                   <a className=" cursor-pointer">
-                    <img className="w-full h-full" src="HomePage5/Browser_By_Section/Group 10416.svg" />
+                    <img className="w-full h-full " src="HomePage5/Browser_By_Section/Group 10416.svg" />
+                  </a>
+                </div>
+              </div>
+              <div className="inline-block cursor-pointer">
+                <div className="w-28 md:w-full md:h-full max-w-xs overflow-hidden shadow-md hover:shadow-lg  rounded-sm md:rounded bg-white  duration-300 ease-in-out" >
+                  <a className=" cursor-pointer">
+                    <img className="w-full h-full " src="HomePage5/Browser_By_Section/Group 10418.svg" />
+                  </a>
+                </div>
+              </div>
+              <div className="inline-block cursor-pointer">
+                <div className="w-28 md:w-full md:h-full max-w-xs overflow-hidden shadow-md hover:shadow-lg  rounded-sm md:rounded bg-white  duration-300 ease-in-out" >
+                  <a className=" cursor-pointer">
+                    <img className="w-full h-full " src="HomePage5/Browser_By_Section/Group 10418.svg" />
+                  </a>
+                </div>
+              </div>
+              <div className="inline-block cursor-pointer">
+                <div className="w-28 md:w-full md:h-full max-w-xs overflow-hidden shadow-md hover:shadow-lg  rounded-sm md:rounded bg-white  duration-300 ease-in-out" >
+                  <a className=" cursor-pointer">
+                    <img className="w-full h-full " src="HomePage5/Browser_By_Section/Group 10418.svg" />
+                  </a>
+                </div>
+              </div>
+              <div className="inline-block cursor-pointer">
+                <div className="w-28 md:w-full md:h-full max-w-xs overflow-hidden shadow-md hover:shadow-lg  rounded-sm md:rounded bg-white  duration-300 ease-in-out" >
+                  <a className=" cursor-pointer">
+                    <img className="w-full h-full " src="HomePage5/Browser_By_Section/Group 10418.svg" />
+                  </a>
+                </div>
+              </div>
+              <div className="inline-block cursor-pointer">
+                <div className="w-28 md:w-full md:h-full max-w-xs overflow-hidden shadow-md hover:shadow-lg  rounded-sm md:rounded bg-white  duration-300 ease-in-out" >
+                  <a className=" cursor-pointer">
+                    <img className="w-full h-full " src="HomePage5/Browser_By_Section/Group 10418.svg" />
                   </a>
                 </div>
               </div>
 
-              <div className="inline-block cursor-pointer">
-                <div className="w-28 h-24 sm:w-36 sm:h-32 lg:w-full lg:h-full max-w-xs overflow-hidden shadow-md hover:shadow-lg border rounded-sm md:rounded bg-white  duration-300 ease-in-out" >
-                  <a className=" cursor-pointer">
-                    <img className="w-full h-full" src="HomePage5/AuctionCarDealer/audi.svg" />
-                  </a>
-                </div>
-              </div>
-
-              <div className="inline-block cursor-pointer">
-                <div className="w-28 h-24 sm:w-36 sm:h-32 lg:w-full lg:h-full max-w-xs overflow-hidden shadow-md hover:shadow-lg border rounded-sm md:rounded bg-white  duration-300 ease-in-out" >
-                  <a className=" cursor-pointer">
-                    <img className="w-full h-full" src="HomePage5/AuctionCarDealer/Mercedes.svg" />
-                  </a>
-                </div>
-              </div>
-
-              <div className="inline-block cursor-pointer">
-                <div className="w-28 h-24 sm:w-36 sm:h-32 lg:w-full lg:h-full max-w-xs overflow-hidden shadow-md hover:shadow-lg border rounded-sm md:rounded bg-white  duration-300 ease-in-out" >
-                  <a className=" cursor-pointer">
-                    <img className="w-full h-full" src="HomePage5/AuctionCarDealer/Hyundai.svg" />
-                  </a>
-                </div>
-              </div>
-
-              <div className="inline-block cursor-pointer">
-                <div className="w-28 h-24 sm:w-36 sm:h-32 lg:w-full lg:h-full max-w-xs overflow-hidden shadow-md hover:shadow-lg border rounded-sm md:rounded bg-white  duration-300 ease-in-out" >
-                  <a className=" cursor-pointer">
-                    <img className="w-full h-full" src="HomePage5/AuctionCarDealer/Toyota.svg" />
-                  </a>
-                </div>
-              </div>
-
-              <div className="inline-block cursor-pointer">
-                <div className="w-28 h-24 sm:w-36 sm:h-32 lg:w-full lg:h-full max-w-xs overflow-hidden shadow-md hover:shadow-lg border rounded-sm md:rounded bg-white  duration-300 ease-in-out" >
-                  <a className=" cursor-pointer">
-                    <img className="w-full h-full" src="HomePage5/AuctionCarDealer/Nissan.svg" />
-                  </a>
-                </div>
-              </div>
+             
 
             </div>
           </div>
         </div>
 
-        <div className="flex justify-end">
-          <a href="/browse_by_make" className="hidden lg:block w-max  hover:underline sm:text-right cursor-pointer md:text-base 2xl:text-xl font-medium text-color5">See All Makes</a>
-        </div>
 
       </div>
 
