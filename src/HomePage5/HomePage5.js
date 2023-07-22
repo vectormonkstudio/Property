@@ -163,68 +163,85 @@ const HomePage5 = ({ onScroll }) => {
 
 
 
-
-
-
-
-
-
-
-      {/* Catagorise  Car Body*/}
-      <div className=" pb-10 pt-16 2xl:pt-36 px-4 md:px-8 lg:px-20 2xl:px-28 w-full " >
-        <h3 className="pb-8 md:pb-8 2xl:pb-20 text-center sm:text-left sm:text-xl lg:text-2xl font-bold text-color5">Browse by Body</h3>
-        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-2 sm:gap-4 ">
-
-          <div className="shadow-lg rounded-t-lg ">
-            <div className="bg-white pt-8 2xl:pt-12 xl:px-0 rounded-lg  cursor-pointer">
-              <img className="mx-auto w-1/2 h-16 2xl:w-1/3" src="HomePage5/AuctionCarDealer/Group 9364.svg" />
-              <h3 className=" pt-6 xl:pt-8 2xl:pt-14 pb-3 2xl:text-2xl text-sm font-semibold text-color5 text-center uppercase">For Sale</h3>
-              <img className="w-full" src="HomePage5/AuctionCarDealer/Group 9365.svg" />
-            </div>
-          </div>
-          <div className="shadow-lg rounded-t-lg ">
-            <div className="bg-white pt-8 2xl:pt-12 xl:px-0 rounded-lg  cursor-pointer">
-              <img className="mx-auto w-1/2 h-16 2xl:w-1/3" src="HomePage5/AuctionCarDealer/Vector (1).svg" />
-              <h3 className=" pt-6 xl:pt-8 2xl:pt-14 pb-3 2xl:text-2xl text-sm font-semibold text-color5 text-center uppercase">For Rent</h3>
-              <img className="w-full" src="HomePage5/AuctionCarDealer/Group 9365.svg" />
-            </div>
-          </div>
-          <div className="shadow-lg rounded-t-lg ">
-            <div className="bg-white pt-8 2xl:pt-12 xl:px-0 rounded-lg  cursor-pointer">
-              <img className="mx-auto w-1/2 h-16 2xl:w-1/3" src="HomePage5/AuctionCarDealer/Group 8934.svg" />
-              <h3 className=" pt-6 xl:pt-8 2xl:pt-14 pb-3 2xl:text-2xl text-sm font-semibold text-color5 text-center uppercase">Sharing</h3>
-              <img className="w-full" src="HomePage5/AuctionCarDealer/Group 9365.svg" />
-            </div>
-          </div>
-          <div className="shadow-lg rounded-t-lg ">
-            <div className="bg-white pt-8 2xl:pt-12 xl:px-0 rounded-lg  cursor-pointer">
-              <img className="mx-auto w-1/2 h-16 2xl:w-1/3" src="HomePage5/AuctionCarDealer/Vector (3).svg" />
-              <h3 className=" pt-6 xl:pt-8 2xl:pt-14 pb-3 2xl:text-2xl text-sm font-semibold text-color5 text-center uppercase">Holiday home</h3>
-              <img className="w-full" src="HomePage5/AuctionCarDealer/Group 9365.svg" />
-            </div>
-          </div>
-          <div className="shadow-lg rounded-t-lg ">
-            <div className="bg-white pt-8 2xl:pt-12 xl:px-0 rounded-lg  cursor-pointer">
-              <img className="mx-auto w-1/2 h-16 2xl:w-1/3" src="HomePage5/AuctionCarDealer/Vector (4).svg" />
-              <h3 className=" pt-6 xl:pt-8 2xl:pt-14 pb-3 2xl:text-2xl text-sm font-semibold text-color5 text-center uppercase">Commercial</h3>
-              <img className="w-full" src="HomePage5/AuctionCarDealer/Group 9365.svg" />
-            </div>
-          </div>
-          <div className="shadow-lg rounded-t-lg ">
-            <div className="bg-white pt-8 2xl:pt-12 xl:px-0 rounded-lg  cursor-pointer">
-              <img className="mx-auto w-1/2 h-16 2xl:w-1/3" src="HomePage5/AuctionCarDealer/Vector (5).svg" />
-              <h3 className=" pt-6 xl:pt-8 2xl:pt-14 pb-3 2xl:text-2xl text-sm font-semibold text-color5 text-center uppercase">Parking</h3>
-              <img className="w-full" src="HomePage5/AuctionCarDealer/Group 9365.svg" />
-            </div>
-          </div>
-
+      {/* Browser By Section */}
+      <div className=" pb-10 pt-8 2xl:pt-36 pl-4 xs:pl-6 md:pl-8 lg:px-20 2xl:px-28 w-full " >
+        <div className="pb-4 pr-4 xs:pr-6 lg:pb-6 2xl:py-0 2xl:pb-12 flex justify-between">
+          <h3 className=" sm:text-left sm:text-xl lg:text-2xl 2xl:text-4xl font-bold text-color5">Browser By Section</h3>
+          <a href="/browse_by_make" className="lg:hidden outline-none focus:outline-none text-xs sm:text-base py-1 px-2 text-color13 hover:underline">View All</a>
         </div>
+        {/* <!--  --> */}
+        <div className="flex flex-col m-auto p-auto ">
+          <div className="flex overflow-x-scroll lg:overflow-x-hidden pb-10 " >
+            <div className=" flex flex-nowrap space-x-2 sm:space-x-4 lg:space-x-0 lg:w-full lg:grid lg:grid-cols-6 lg:mx-auto lg:gap-3 xl:gap-4 " >
+
+              <div className="inline-block cursor-pointer">
+                <div className="w-28 h-24 sm:w-36 sm:h-32 lg:w-full lg:h-full max-w-xs overflow-hidden shadow-md hover:shadow-lg border rounded-sm md:rounded bg-white  duration-300 ease-in-out" >
+                  <a className=" cursor-pointer">
+                    <img className="w-full h-full" src="HomePage5/Browser_By_Section/Group 10416.svg" />
+                  </a>
+                </div>
+              </div>
+
+              <div className="inline-block cursor-pointer">
+                <div className="w-28 h-24 sm:w-36 sm:h-32 lg:w-full lg:h-full max-w-xs overflow-hidden shadow-md hover:shadow-lg border rounded-sm md:rounded bg-white  duration-300 ease-in-out" >
+                  <a className=" cursor-pointer">
+                    <img className="w-full h-full" src="HomePage5/AuctionCarDealer/audi.svg" />
+                  </a>
+                </div>
+              </div>
+
+              <div className="inline-block cursor-pointer">
+                <div className="w-28 h-24 sm:w-36 sm:h-32 lg:w-full lg:h-full max-w-xs overflow-hidden shadow-md hover:shadow-lg border rounded-sm md:rounded bg-white  duration-300 ease-in-out" >
+                  <a className=" cursor-pointer">
+                    <img className="w-full h-full" src="HomePage5/AuctionCarDealer/Mercedes.svg" />
+                  </a>
+                </div>
+              </div>
+
+              <div className="inline-block cursor-pointer">
+                <div className="w-28 h-24 sm:w-36 sm:h-32 lg:w-full lg:h-full max-w-xs overflow-hidden shadow-md hover:shadow-lg border rounded-sm md:rounded bg-white  duration-300 ease-in-out" >
+                  <a className=" cursor-pointer">
+                    <img className="w-full h-full" src="HomePage5/AuctionCarDealer/Hyundai.svg" />
+                  </a>
+                </div>
+              </div>
+
+              <div className="inline-block cursor-pointer">
+                <div className="w-28 h-24 sm:w-36 sm:h-32 lg:w-full lg:h-full max-w-xs overflow-hidden shadow-md hover:shadow-lg border rounded-sm md:rounded bg-white  duration-300 ease-in-out" >
+                  <a className=" cursor-pointer">
+                    <img className="w-full h-full" src="HomePage5/AuctionCarDealer/Toyota.svg" />
+                  </a>
+                </div>
+              </div>
+
+              <div className="inline-block cursor-pointer">
+                <div className="w-28 h-24 sm:w-36 sm:h-32 lg:w-full lg:h-full max-w-xs overflow-hidden shadow-md hover:shadow-lg border rounded-sm md:rounded bg-white  duration-300 ease-in-out" >
+                  <a className=" cursor-pointer">
+                    <img className="w-full h-full" src="HomePage5/AuctionCarDealer/Nissan.svg" />
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div className="flex justify-end">
+          <a href="/browse_by_make" className="hidden lg:block w-max  hover:underline sm:text-right cursor-pointer md:text-base 2xl:text-xl font-medium text-color5">See All Makes</a>
+        </div>
+
       </div>
 
 
 
+
+
+
+
+
+
       <div className="py-10 px-4 md:px-8 lg:px-20 2xl:px-28 ">
-        <h3 className="pb-8 md:pb-8 2xl:pb-20 text-center sm:text-left sm:text-xl lg:text-2xl font-bold text-color5">Browse by Body</h3>
+        <h3 className="pb- md:pb-8 2xl:pb-20 sm:text-left sm:text-xl lg:text-2xl font-bold text-color5">Discover Our Featured Listings</h3>
         <div className="py-6 flex justify-end space-x-4">
           <button className="2xl:text-xl text-color9 font-medium py-1 px-4 2xl:py-2 2xl:px-9 rounded hover:bg-color1 hover:text-white hover:border-color1 focus:bg-color1 focus:text-white focus:border-color1 focus:outline-none outline-none border-2 border-color9">Buy</button>
           <button className="2xl:text-xl text-color9 font-medium py-1 px-4 2xl:py-2 2xl:px-9 rounded hover:bg-color1 hover:text-white hover:border-color1 focus:bg-color1 focus:text-white focus:border-color1 focus:outline-none outline-none border-2 border-color9">Rent</button>
