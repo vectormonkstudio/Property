@@ -177,6 +177,13 @@ const HomePage5 = ({ onScroll }) => {
               <div className="inline-block cursor-pointer">
                 <div className="w-28 md:w-full md:h-full max-w-xs overflow-hidden shadow-md hover:shadow-lg  rounded-sm md:rounded bg-white  duration-300 ease-in-out" >
                   <a className=" cursor-pointer">
+                    <img className="w-full h-full " src="HomePage5/Browser_By_Section/Group 10415.svg" />
+                  </a>
+                </div>
+              </div>
+              <div className="inline-block cursor-pointer">
+                <div className="w-28 md:w-full md:h-full max-w-xs overflow-hidden shadow-md hover:shadow-lg  rounded-sm md:rounded bg-white  duration-300 ease-in-out" >
+                  <a className=" cursor-pointer">
                     <img className="w-full h-full " src="HomePage5/Browser_By_Section/Group 10416.svg" />
                   </a>
                 </div>
@@ -184,40 +191,33 @@ const HomePage5 = ({ onScroll }) => {
               <div className="inline-block cursor-pointer">
                 <div className="w-28 md:w-full md:h-full max-w-xs overflow-hidden shadow-md hover:shadow-lg  rounded-sm md:rounded bg-white  duration-300 ease-in-out" >
                   <a className=" cursor-pointer">
-                    <img className="w-full h-full " src="HomePage5/Browser_By_Section/Group 10418.svg" />
+                    <img className="w-full h-full " src="HomePage5/Browser_By_Section/Group 10419.svg" />
                   </a>
                 </div>
               </div>
               <div className="inline-block cursor-pointer">
                 <div className="w-28 md:w-full md:h-full max-w-xs overflow-hidden shadow-md hover:shadow-lg  rounded-sm md:rounded bg-white  duration-300 ease-in-out" >
                   <a className=" cursor-pointer">
-                    <img className="w-full h-full " src="HomePage5/Browser_By_Section/Group 10418.svg" />
+                    <img className="w-full h-full " src="HomePage5/Browser_By_Section/Group 10420.svg" />
                   </a>
                 </div>
               </div>
               <div className="inline-block cursor-pointer">
                 <div className="w-28 md:w-full md:h-full max-w-xs overflow-hidden shadow-md hover:shadow-lg  rounded-sm md:rounded bg-white  duration-300 ease-in-out" >
                   <a className=" cursor-pointer">
-                    <img className="w-full h-full " src="HomePage5/Browser_By_Section/Group 10418.svg" />
+                    <img className="w-full h-full " src="HomePage5/Browser_By_Section/Group 10421.svg" />
                   </a>
                 </div>
               </div>
               <div className="inline-block cursor-pointer">
                 <div className="w-28 md:w-full md:h-full max-w-xs overflow-hidden shadow-md hover:shadow-lg  rounded-sm md:rounded bg-white  duration-300 ease-in-out" >
                   <a className=" cursor-pointer">
-                    <img className="w-full h-full " src="HomePage5/Browser_By_Section/Group 10418.svg" />
-                  </a>
-                </div>
-              </div>
-              <div className="inline-block cursor-pointer">
-                <div className="w-28 md:w-full md:h-full max-w-xs overflow-hidden shadow-md hover:shadow-lg  rounded-sm md:rounded bg-white  duration-300 ease-in-out" >
-                  <a className=" cursor-pointer">
-                    <img className="w-full h-full " src="HomePage5/Browser_By_Section/Group 10418.svg" />
+                    <img className="w-full h-full " src="HomePage5/Browser_By_Section/Group 10422.svg" />
                   </a>
                 </div>
               </div>
 
-             
+
 
             </div>
           </div>
@@ -237,165 +237,219 @@ const HomePage5 = ({ onScroll }) => {
       <div className="py-10 px-4 md:px-8 lg:px-20 2xl:px-28 ">
         <h3 className="pb- md:pb-8 2xl:pb-20 sm:text-left sm:text-xl lg:text-2xl font-bold text-color5">Discover Our Featured Listings</h3>
         <div className="py-6 flex justify-end space-x-4">
-          <button className="2xl:text-xl text-color9 font-medium py-1 px-4 2xl:py-2 2xl:px-9 rounded hover:bg-color1 hover:text-white hover:border-color1 focus:bg-color1 focus:text-white focus:border-color1 focus:outline-none outline-none border-2 border-color9">Buy</button>
-          <button className="2xl:text-xl text-color9 font-medium py-1 px-4 2xl:py-2 2xl:px-9 rounded hover:bg-color1 hover:text-white hover:border-color1 focus:bg-color1 focus:text-white focus:border-color1 focus:outline-none outline-none border-2 border-color9">Rent</button>
-          <button className="2xl:text-xl text-color9 font-medium py-1 px-4 2xl:py-2 2xl:px-9 rounded hover:bg-color1 hover:text-white hover:border-color1 focus:bg-color1 focus:text-white focus:border-color1 focus:outline-none outline-none border-2 border-color9">Share</button>
+          <button className="text-sm 2xl:text-xl text-color5 bg-color18 font-medium py-2 px-4 2xl:py-2 2xl:px-9 rounded-sm md:rounded hover:bg-color1 hover:text-white hover:border-color1 focus:bg-color1 focus:text-white focus:border-color1 focus:outline-none outline-none">Buy</button>
+          <button className="text-sm 2xl:text-xl text-color5 bg-color18 font-medium py-2 px-4 2xl:py-2 2xl:px-9 rounded-sm md:rounded hover:bg-color1 hover:text-white hover:border-color1 focus:bg-color1 focus:text-white focus:border-color1 focus:outline-none outline-none">Rent</button>
+          <button className="text-sm 2xl:text-xl text-color5 bg-color18 font-medium py-2 px-4 2xl:py-2 2xl:px-9 rounded-sm md:rounded hover:bg-color1 hover:text-white hover:border-color1 focus:bg-color1 focus:text-white focus:border-color1 focus:outline-none outline-none">Share</button>
         </div>
 
-        {/* Carts */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 ">
+        {/* carts */}
+        <div className="flex flex-col m-auto p-auto ">
+          <div className="flex overflow-x-scroll lg:overflow-x-hidden pb-10 " >
+            <div className="w-full flex flex-nowrap  space-x-2 sm:space-x-4 md:space-x-0 md:gap-4 md:grid md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4" >
 
-          {/* Carts 01 */}
-          <div className=" cursor-pointer">
-            <div className="">
-              <div className="">
-                <img className="rounded-t-md w-full" src="HomePage5/Rectangle 2657.svg" />
-              </div>
-            </div>
-            <div className=" pl-6 space-y-4 py-5  pr-3 shadow-md rounded-b-md">
-              <div className="flex justify-between">
-                <h3 className="text-lg font-medium text-color3">$2,8500</h3>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 p-1 my-auto cursor-pointer rounded-full focus:bg-color1 text-color1 hover:text-white hover:bg-color1">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
-                </svg>
-              </div>
-              <div>
-                <h2 className="text-xl font-bold text-color5">Pool apartment</h2>
-                <h2 className="text-sm text-color5">18 Grattan St, Brookly</h2>
-              </div>
-              <div className="flex flex-wrap space-x-3 md:space-x-4 text-color5">
-                <div className="text-sm flex space-x-1">
-                  <img className=" mr-1" src="HomePage5/Vector.svg" />
-                  <h3>6 Bed</h3>
+
+              {/* Carts 01 */}
+              <div className="inline-block cursor-pointer lg:w-full">
+                <div className="w-80 md:w-full overflow-hidden duration-300 shadow-lg " >
+                  <div className="">
+                    <div className="">
+                      <div className="">
+                        <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2658.svg" />
+                      </div>
+                      <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 rounded text-white font-bold bg-color1">$2,8000</div>
+                    </div>
+                    <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
+                      <div>
+                        <h2 className="text-lg md:text-xl font-bold text-color5">Pool apartment</h2>
+                        <h2 className="text-xs md:text-sm text-color5">18 Grattan St, Brookly</h2>
+                      </div>
+                      <div className="flex flex-wrap space-x-3 md:space-x-4 text-color5">
+                        <div className="text-sm flex space-x-1">
+                          <img className=" mr-1 w-4 " src="HomePage5/Vector.svg" />
+                          <h3 className="text-xs">6 Bed</h3>
+                        </div>
+                        <div className="text-sm flex space-x-1">
+                          <img className=" mr-1 w-4 " src="HomePage5/Layer_1.svg" />
+                          <h3 className="text-xs">3 Baths</h3>
+                        </div>
+                        <div className="text-sm flex space-x-1">
+                          <img className=" mr-1 w-3 " src="HomePage5/Group 8935.svg" />
+                          <h3 className="text-xs">300sqft</h3>
+                        </div>
+                        <div className="text-sm flex space-x-1">
+                          <img className=" mr-1 w-3 " src="HomePage5/Group 10383.svg" />
+                          <h3 className="text-xs">300sqft</h3>
+                        </div>
+                      </div>
+                      <div className=" flex justify-between py-2 border-t border-color5 border-opacity-30">
+                        <div className="text-color5 text-sm my-auto">For Buy</div>
+                        <div className="flex space-x-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 p-1 my-auto cursor-pointer rounded-full focus:bg-color1 text-color5 hover:text-white hover:bg-color1">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                          </svg>
+                          <img src="Buy/Group 9006.svg" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
-                <div className="text-sm flex space-x-1">
-                  <img className=" mr-1" src="HomePage5/Layer_1.svg" />
-                  <h3>3 Baths</h3>
-                </div>
-                <div className="text-sm flex space-x-1">
-                  <img className=" mr-1" src="HomePage5/Group 8935.svg" />
-                  <h3>300sqft</h3>
+              </div>
+
+              {/* Carts 01 */}
+              <div className="inline-block cursor-pointer lg:w-full">
+                <div className="w-80 md:w-full overflow-hidden duration-300 shadow-lg " >
+                  <div className="">
+                    <div className="">
+                      <div className="">
+                        <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2657.svg" />
+                      </div>
+                      <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 rounded text-white font-bold bg-color1">$2,8000</div>
+                    </div>
+                    <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
+                      <div>
+                        <h2 className="text-lg md:text-xl font-bold text-color5">Pool apartment</h2>
+                        <h2 className="text-xs md:text-sm text-color5">18 Grattan St, Brookly</h2>
+                      </div>
+                      <div className="flex flex-wrap space-x-3 md:space-x-4 text-color5">
+                        <div className="text-sm flex space-x-1">
+                          <img className=" mr-1 w-4" src="HomePage5/Vector.svg" />
+                          <h3 className="text-xs">6 Bed</h3>
+                        </div>
+                        <div className="text-sm flex space-x-1">
+                          <img className=" mr-1 w-4" src="HomePage5/Layer_1.svg" />
+                          <h3 className="text-xs">3 Baths</h3>
+                        </div>
+                        <div className="text-sm flex space-x-1">
+                          <img className=" mr-1 w-3" src="HomePage5/Group 8935.svg" />
+                          <h3 className="text-xs">300sqft</h3>
+                        </div>
+                        <div className="text-sm flex space-x-1">
+                          <img className=" mr-1 w-3" src="HomePage5/Group 10383.svg" />
+                          <h3 className="text-xs">300sqft</h3>
+                        </div>
+                      </div>
+                      <div className=" flex justify-between py-2 border-t border-color5 border-opacity-30">
+                        <div className="text-color5 text-sm my-auto">For Buy</div>
+                        <div className="flex space-x-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 p-1 my-auto cursor-pointer rounded-full focus:bg-color1 text-color5 hover:text-white hover:bg-color1">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                          </svg>
+                          <img src="Buy/Group 9006.svg" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
               </div>
+
+              {/* Carts 01 */}
+              <div className="inline-block cursor-pointer lg:w-full">
+                <div className="w-80 md:w-full overflow-hidden duration-300 shadow-lg " >
+                  <div className="">
+                    <div className="">
+                      <div className="">
+                        <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2656.svg" />
+                      </div>
+                      <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 rounded text-white font-bold bg-color1">$2,8000</div>
+                    </div>
+                    <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
+                      <div>
+                        <h2 className="text-lg md:text-xl font-bold text-color5">Pool apartment</h2>
+                        <h2 className="text-xs md:text-sm text-color5">18 Grattan St, Brookly</h2>
+                      </div>
+                      <div className="flex flex-wrap space-x-3 md:space-x-4 text-color5">
+                        <div className="text-sm flex space-x-1">
+                          <img className=" mr-1 w-4" src="HomePage5/Vector.svg" />
+                          <h3 className="text-xs">6 Bed</h3>
+                        </div>
+                        <div className="text-sm flex space-x-1">
+                          <img className=" mr-1 w-4" src="HomePage5/Layer_1.svg" />
+                          <h3 className="text-xs">3 Baths</h3>
+                        </div>
+                        <div className="text-sm flex space-x-1">
+                          <img className=" mr-1 w-3" src="HomePage5/Group 8935.svg" />
+                          <h3 className="text-xs">300sqft</h3>
+                        </div>
+                        <div className="text-sm flex space-x-1">
+                          <img className=" mr-1 w-3" src="HomePage5/Group 10383.svg" />
+                          <h3 className="text-xs">300sqft</h3>
+                        </div>
+                      </div>
+                      <div className=" flex justify-between py-2 border-t border-color5 border-opacity-30">
+                        <div className="text-color5 text-sm my-auto">For Buy</div>
+                        <div className="flex space-x-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 p-1 my-auto cursor-pointer rounded-full focus:bg-color1 text-color5 hover:text-white hover:bg-color1">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                          </svg>
+                          <img src="Buy/Group 9006.svg" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              {/* Carts 01 */}
+              <div className="inline-block cursor-pointer lg:w-full">
+                <div className="w-80 md:w-full overflow-hidden duration-300 shadow-lg " >
+                  <div className="">
+                    <div className="">
+                      <div className="">
+                        <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2658.svg" />
+                      </div>
+                      <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 rounded text-white font-bold bg-color1">$2,8000</div>
+                    </div>
+                    <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
+                      <div>
+                        <h2 className="text-lg md:text-xl font-bold text-color5">Pool apartment</h2>
+                        <h2 className="text-xs md:text-sm text-color5">18 Grattan St, Brookly</h2>
+                      </div>
+                      <div className="flex flex-wrap space-x-3 md:space-x-4 text-color5">
+                        <div className="text-sm flex space-x-1">
+                          <img className=" mr-1 w-4" src="HomePage5/Vector.svg" />
+                          <h3 className="text-xs">6 Bed</h3>
+                        </div>
+                        <div className="text-sm flex space-x-1">
+                          <img className=" mr-1 w-4" src="HomePage5/Layer_1.svg" />
+                          <h3 className="text-xs">3 Baths</h3>
+                        </div>
+                        <div className="text-sm flex space-x-1">
+                          <img className=" mr-1 w-3" src="HomePage5/Group 8935.svg" />
+                          <h3 className="text-xs">300sqft</h3>
+                        </div>
+                        <div className="text-sm flex space-x-1">
+                          <img className=" mr-1 w-3" src="HomePage5/Group 10383.svg" />
+                          <h3 className="text-xs">300sqft</h3>
+                        </div>
+                      </div>
+                      <div className=" flex justify-between py-2 border-t border-color5 border-opacity-30">
+                        <div className="text-color5 text-sm my-auto">For Buy</div>
+                        <div className="flex space-x-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 p-1 my-auto cursor-pointer rounded-full focus:bg-color1 text-color5 hover:text-white hover:bg-color1">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                          </svg>
+                          <img src="Buy/Group 9006.svg" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+
+           
+
+
 
             </div>
           </div>
-
-
-          {/* Carts 01 */}
-          <div className=" cursor-pointer">
-            <div className="">
-              <div className="">
-                <img className="rounded-t-md w-full" src="HomePage5/Rectangle 2658.svg" />
-              </div>
-            </div>
-            <div className=" pl-6 space-y-4 py-5  pr-3 shadow-md rounded-b-md">
-              <div className="flex justify-between">
-                <h3 className="text-lg font-medium text-color3">$2,8500</h3>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 p-1 my-auto cursor-pointer rounded-full focus:bg-color1 text-color1 hover:text-white hover:bg-color1">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
-                </svg>
-              </div>
-              <div>
-                <h2 className="text-xl font-bold text-color5">Pool apartment</h2>
-                <h2 className="text-sm text-color5">18 Grattan St, Brookly</h2>
-              </div>
-              <div className="flex flex-wrap space-x-3 md:space-x-4 text-color5">
-                <div className="text-sm flex space-x-1">
-                  <img className=" mr-1" src="HomePage5/Vector.svg" />
-                  <h3>6 Bed</h3>
-                </div>
-                <div className="text-sm flex space-x-1">
-                  <img className=" mr-1" src="HomePage5/Layer_1.svg" />
-                  <h3>3 Baths</h3>
-                </div>
-                <div className="text-sm flex space-x-1">
-                  <img className=" mr-1" src="HomePage5/Group 8935.svg" />
-                  <h3>300sqft</h3>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          {/* Carts 01 */}
-          <div className=" cursor-pointer">
-            <div className="">
-              <div className="">
-                <img className="rounded-t-md w-full" src="HomePage5/Rectangle 2657.svg" />
-              </div>
-            </div>
-            <div className=" pl-6 space-y-4 py-5  pr-3 shadow-md rounded-b-md">
-              <div className="flex justify-between">
-                <h3 className="text-lg font-medium text-color3">$2,8500</h3>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 p-1 my-auto cursor-pointer rounded-full focus:bg-color1 text-color1 hover:text-white hover:bg-color1">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
-                </svg>
-              </div>
-              <div>
-                <h2 className="text-xl font-bold text-color5">Pool apartment</h2>
-                <h2 className="text-sm text-color5">18 Grattan St, Brookly</h2>
-              </div>
-              <div className="flex flex-wrap space-x-3 md:space-x-4 text-color5">
-                <div className="text-sm flex space-x-1">
-                  <img className=" mr-1" src="HomePage5/Vector.svg" />
-                  <h3>6 Bed</h3>
-                </div>
-                <div className="text-sm flex space-x-1">
-                  <img className=" mr-1" src="HomePage5/Layer_1.svg" />
-                  <h3>3 Baths</h3>
-                </div>
-                <div className="text-sm flex space-x-1">
-                  <img className=" mr-1" src="HomePage5/Group 8935.svg" />
-                  <h3>300sqft</h3>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          {/* Carts 01 */}
-          <div className=" cursor-pointer">
-            <div className="">
-              <div className="">
-                <img className="rounded-t-md w-full" src="HomePage5/Rectangle 2658.svg" />
-              </div>
-            </div>
-            <div className=" pl-6 space-y-4 py-5  pr-3 shadow-md rounded-b-md">
-              <div className="flex justify-between">
-                <h3 className="text-lg font-medium text-color3">$2,8500</h3>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 p-1 my-auto cursor-pointer rounded-full focus:bg-color1 text-color1 hover:text-white hover:bg-color1">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
-                </svg>
-              </div>
-              <div>
-                <h2 className="text-xl font-bold text-color5">Pool apartment</h2>
-                <h2 className="text-sm text-color5">18 Grattan St, Brookly</h2>
-              </div>
-              <div className="flex flex-wrap space-x-3 md:space-x-4 text-color5">
-                <div className="text-sm flex space-x-1">
-                  <img className=" mr-1" src="HomePage5/Vector.svg" />
-                  <h3>6 Bed</h3>
-                </div>
-                <div className="text-sm flex space-x-1">
-                  <img className=" mr-1" src="HomePage5/Layer_1.svg" />
-                  <h3>3 Baths</h3>
-                </div>
-                <div className="text-sm flex space-x-1">
-                  <img className=" mr-1" src="HomePage5/Group 8935.svg" />
-                  <h3>300sqft</h3>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-
-
         </div>
-        <div className="flex justify-end py-4 md:pt-8">
-          <h3 className=" w-max  hover:underline sm:text-right cursor-pointer md:text-base 2xl:text-xl font-medium text-color5">See All listing</h3>
-        </div>
+
+
       </div>
 
 

@@ -29,6 +29,14 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage5 />} />
           <Route path="/signin" element={<SignIn />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="/buy" element={<Buy />} />
+          <Route path="/rent" element={<Rent />} />
+          <Route path="/share1" element={<Share1 />} />
+          <Route path="/share2" element={<Share2 />} />
+          <Route path="/product_details_for_sell" element={<ProductDetailsForSell />} />
+          <Route path="/add_new_property" element={<AddNewProperty />} />
+          <Route path="/add_new_property2" element={<AddNewProperty2 />} />
         </Routes>
       </BrowserRouter>
 

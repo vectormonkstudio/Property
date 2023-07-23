@@ -3,7 +3,7 @@ import React from "react";
 const Buy = ({ onScroll }) => {
 
     return (
-        <div className="px-4 md:px-8 lg:px-20  py-10 flex ">
+        <div className="pt-32 px-4 md:px-8 lg:px-20  py-10 flex ">
 
 
             <div className="hidden h-full xl:block w-11/12 sm:w-1/2 xl:w-1/4  px-4 py-7 rounded-lg bg-color5">
