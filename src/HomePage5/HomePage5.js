@@ -237,9 +237,9 @@ const HomePage5 = ({ onScroll }) => {
       <div className="py-10 px-4 md:px-8 lg:px-20 2xl:px-28 ">
         <h3 className="pb- md:pb-8 2xl:pb-20 sm:text-left sm:text-xl lg:text-2xl font-bold text-color5">Discover Our Featured Listings</h3>
         <div className="py-6 flex justify-end space-x-4">
-          <button className="text-sm 2xl:text-xl text-color5 bg-color18 font-medium py-2 px-4 2xl:py-2 2xl:px-9 rounded-sm md:rounded hover:bg-color1 hover:text-white hover:border-color1 focus:bg-color1 focus:text-white focus:border-color1 focus:outline-none outline-none">Buy</button>
-          <button className="text-sm 2xl:text-xl text-color5 bg-color18 font-medium py-2 px-4 2xl:py-2 2xl:px-9 rounded-sm md:rounded hover:bg-color1 hover:text-white hover:border-color1 focus:bg-color1 focus:text-white focus:border-color1 focus:outline-none outline-none">Rent</button>
-          <button className="text-sm 2xl:text-xl text-color5 bg-color18 font-medium py-2 px-4 2xl:py-2 2xl:px-9 rounded-sm md:rounded hover:bg-color1 hover:text-white hover:border-color1 focus:bg-color1 focus:text-white focus:border-color1 focus:outline-none outline-none">Share</button>
+          <button className="text-sm 2xl:text-xl text-color5 bg-color18 md:bg-white md:border-2 md:border-color17 md:text-color17 font-medium py-2 px-4 xl:px-7 2xl:py-2 2xl:px-9 rounded-sm md:rounded hover:bg-color1 hover:text-white hover:border-color1 focus:bg-color1 focus:text-white focus:border-color1 focus:outline-none outline-none">Buy</button>
+          <button className="text-sm 2xl:text-xl text-color5 bg-color18 md:bg-white md:border-2 md:border-color17 md:text-color17 font-medium py-2 px-4 xl:px-7 2xl:py-2 2xl:px-9 rounded-sm md:rounded hover:bg-color1 hover:text-white hover:border-color1 focus:bg-color1 focus:text-white focus:border-color1 focus:outline-none outline-none">Rent</button>
+          <button className="text-sm 2xl:text-xl text-color5 bg-color18 md:bg-white md:border-2 md:border-color17 md:text-color17 font-medium py-2 px-4 xl:px-7 2xl:py-2 2xl:px-9 rounded-sm md:rounded hover:bg-color1 hover:text-white hover:border-color1 focus:bg-color1 focus:text-white focus:border-color1 focus:outline-none outline-none">Share</button>
         </div>
 
         {/* carts */}
@@ -441,7 +441,7 @@ const HomePage5 = ({ onScroll }) => {
               </div>
 
 
-           
+
 
 
 
@@ -457,67 +457,109 @@ const HomePage5 = ({ onScroll }) => {
 
 
 
-
-      <div className="py-10 px-4 md:px-8 lg:px-20 2xl:px-28 ">
-        <h3 className="pb-8 md:pb-8 2xl:pb-20 text-center sm:text-left sm:text-xl lg:text-2xl font-bold text-color5">Properties By Cities</h3>
-
-        <div className="md:py-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4">
-
-          <div className="w-full cursor-pointer text-color5 flex shadow hover:shadow-lg rounded-lg">
-            <div className="h-32 sm:h-28">
-              <img className="w-full h-full rounded-l-lg" src="HomePage5/Rectangle 2665.svg" />
-            </div>
-            <div className=" px-4 space-y-3 my-auto ">
-              <h2 className=" text-2xl sm:text-xl 2xl:text-2xl font-bold">Dublin</h2>
-              <h2 className="text-base 2xl:text-xl">20 Properties</h2>
-            </div>
-          </div>
-
-          <div className="w-full cursor-pointer text-color5 flex shadow hover:shadow-lg rounded-lg">
-            <div className="h-32 sm:h-28">
-              <img className="w-full h-full rounded-l-lg" src="HomePage5/Rectangle 2665.svg" />
-            </div>
-            <div className=" px-4 space-y-3 my-auto ">
-              <h2 className=" text-2xl sm:text-xl 2xl:text-2xl font-bold">Dublin</h2>
-              <h2 className="text-base 2xl:text-xl">20 Properties</h2>
-            </div>
-          </div>
-
-          <div className="w-full cursor-pointer text-color5 flex shadow hover:shadow-lg rounded-lg">
-            <div className="h-32 sm:h-28">
-              <img className="w-full h-full rounded-l-lg" src="HomePage5/Rectangle 2665.svg" />
-            </div>
-            <div className=" px-4 space-y-3 my-auto ">
-              <h2 className=" text-2xl sm:text-xl 2xl:text-2xl font-bold">Dublin</h2>
-              <h2 className="text-base 2xl:text-xl">20 Properties</h2>
-            </div>
-          </div>
-
-          <div className="w-full cursor-pointer text-color5 flex shadow hover:shadow-lg rounded-lg">
-            <div className="h-32 sm:h-28">
-              <img className="w-full h-full rounded-l-lg" src="HomePage5/Rectangle 2665.svg" />
-            </div>
-            <div className=" px-4 space-y-3 my-auto ">
-              <h2 className=" text-2xl sm:text-xl 2xl:text-2xl font-bold">Dublin</h2>
-              <h2 className="text-base 2xl:text-xl">20 Properties</h2>
-            </div>
-          </div>
-
-          <div className="w-full cursor-pointer text-color5 flex shadow hover:shadow-lg rounded-lg">
-            <div className="h-32 sm:h-28">
-              <img className="w-full h-full rounded-l-lg" src="HomePage5/Rectangle 2665.svg" />
-            </div>
-            <div className=" px-4 space-y-3 my-auto ">
-              <h2 className=" text-2xl sm:text-xl 2xl:text-2xl font-bold">Dublin</h2>
-              <h2 className="text-base 2xl:text-xl">20 Properties</h2>
-            </div>
-          </div>
-
-
-
-
+      {/* Properties By Cities */}
+      <div className="bg-color5 bg-opacity-5 md:bg-white pb-10 pt-8 2xl:pt-36 pl-4 xs:pl-6 md:pl-8 lg:pl-20 2xl:pl-28 w-full " >
+        <div className="pb-4 pr-4 xs:pr-6 lg:pb-6 2xl:py-0 2xl:pb-12 flex justify-between">
+          <h3 className=" sm:text-left sm:text-xl lg:text-2xl 2xl:text-4xl font-bold text-color5">Properties By Cities</h3>
         </div>
+        {/* <!--  --> */}
+
+        <div className="flex flex-col m-auto p-auto ">
+          <div className="flex overflow-x-scroll  md:pb-10 " >
+            <div className=" flex flex-nowrap space-x-2 sm:space-x-4 lg:space-x-4 lg:w-full  " >
+
+             
+              {/* cart */}
+              <div className="inline-block cursor-pointer 2xl:w-full">
+                <div className="w-60 sm:w-64 lg:w-80 max-w-xs overflow-hidden shadow-md hover:shadow-xl  rounded-sm md:rounded bg-white  duration-300 ease-in-out" >
+                  <div className="w-full cursor-pointer text-color5 flex rounded-sm border md:rounded 2xl:rounded-lg">
+                    <div className="">
+                      <img className="w-20 sm:w-24 lg:w-28 2xl:w-32 h-full rounded-l-sm md:rounded-l 2xl:rounded-l-lg" src="HomePage5/city/Rectangle 2665.svg" />
+                    </div>
+                    <div className=" px-4 space-y-1  my-auto ">
+                      <h2 className=" text-base sm:text-xl 2xl:text-2xl font-bold">Dublin</h2>
+                      <h2 className="text-xs sm:text-sm 2xl:text-xl">20 Properties</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* cart */}
+              <div className="inline-block cursor-pointer 2xl:w-full">
+                <div className="w-60 sm:w-64 lg:w-80 max-w-xs overflow-hidden shadow-md hover:shadow-xl  rounded-sm md:rounded bg-white  duration-300 ease-in-out" >
+                  <div className="w-full cursor-pointer text-color5 flex rounded-sm border md:rounded 2xl:rounded-lg">
+                    <div className="">
+                      <img className="w-20 sm:w-24 lg:w-28 2xl:w-32 h-full rounded-l-sm md:rounded-l 2xl:rounded-l-lg" src="HomePage5/city/Rectangle 2668.svg" />
+                    </div>
+                    <div className=" px-4 space-y-1  my-auto ">
+                      <h2 className=" text-base sm:text-xl 2xl:text-2xl font-bold">Galway</h2>
+                      <h2 className="text-xs sm:text-sm 2xl:text-xl">20 Properties</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* cart */}
+              <div className="inline-block cursor-pointer 2xl:w-full">
+                <div className="w-60 sm:w-64 lg:w-80 max-w-xs overflow-hidden shadow-md hover:shadow-xl  rounded-sm md:rounded bg-white  duration-300 ease-in-out" >
+                  <div className="w-full cursor-pointer text-color5 flex rounded-sm border md:rounded 2xl:rounded-lg">
+                    <div className="">
+                      <img className="w-20 sm:w-24 lg:w-28 2xl:w-32 h-full rounded-l-sm md:rounded-l 2xl:rounded-l-lg" src="HomePage5/city/Rectangle 2670.svg" />
+                    </div>
+                    <div className=" px-4 space-y-1  my-auto ">
+                      <h2 className=" text-base sm:text-xl 2xl:text-2xl font-bold">Limerick</h2>
+                      <h2 className="text-xs sm:text-sm 2xl:text-xl">20 Properties</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* cart */}
+              <div className="inline-block cursor-pointer 2xl:w-full">
+                <div className="w-60 sm:w-64 lg:w-80 max-w-xs overflow-hidden shadow-md hover:shadow-xl  rounded-sm md:rounded bg-white  duration-300 ease-in-out" >
+                  <div className="w-full cursor-pointer text-color5 flex rounded-sm border md:rounded 2xl:rounded-lg">
+                    <div className="">
+                      <img className="w-20 sm:w-24 lg:w-28 2xl:w-32 h-full rounded-l-sm md:rounded-l 2xl:rounded-l-lg" src="HomePage5/city/Rectangle 2672.svg" />
+                    </div>
+                    <div className=" px-4 space-y-1  my-auto ">
+                      <h2 className=" text-base sm:text-xl 2xl:text-2xl font-bold">Waterford</h2>
+                      <h2 className="text-xs sm:text-sm 2xl:text-xl">20 Properties</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* cart */}
+              <div className="inline-block cursor-pointer 2xl:w-full">
+                <div className="w-60 sm:w-64 lg:w-80 max-w-xs overflow-hidden shadow-md hover:shadow-xl  rounded-sm md:rounded bg-white  duration-300 ease-in-out" >
+                  <div className="w-full cursor-pointer text-color5 flex rounded-sm border md:rounded 2xl:rounded-lg">
+                    <div className="">
+                      <img className="w-20 sm:w-24 lg:w-28 2xl:w-32 h-full rounded-l-sm md:rounded-l 2xl:rounded-l-lg" src="HomePage5/city/Rectangle 2674.svg" />
+                    </div>
+                    <div className=" px-4 space-y-1  my-auto ">
+                      <h2 className=" text-base sm:text-xl 2xl:text-2xl font-bold">Cork</h2>
+                      <h2 className="text-xs sm:text-sm 2xl:text-xl">20 Properties</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+
+
       </div>
+
+
+
+
+
 
 
 
