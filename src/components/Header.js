@@ -135,7 +135,7 @@ const Header = () => {
                 <a href="/SignIn" className="hidden md:block my-auto text-white hover:text-color4 text-xs xl:text-base font-bold cursor-pointer hover:scale-75">Commercial</a>
                 <a href="/SignIn" className="hidden md:block my-auto text-white hover:text-color4 text-xs xl:text-base font-bold cursor-pointer hover:scale-75">About us</a>
                 <a href="/SignUp" className="hidden md:block my-auto text-white hover:text-color4 text-xs xl:text-base font-bold cursor-pointer hover:scale-75">Help</a>
-                <a href="/advertisement" className="text-white focus:outline-none text-xs xl:text-base text-center  font-bold bg-color2 hover:text-color2 hover:bg-white my-auto py-2 lg:py-2 px-6 2xl:text-base 2xl:py-3 2xl:px-12 rounded" >Place Ad</a>
+                <a href="/advertisement" className="text-white focus:outline-none text-xs xl:text-sm text-center  font-bold bg-color2 hover:text-color2 hover:bg-white my-auto py-2 lg:py-2.5 px-6 2xl:text-base 2xl:py-3 2xl:px-12 rounded" >Place Ad</a>
               </div>
 
               <div>

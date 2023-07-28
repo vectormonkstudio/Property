@@ -17,16 +17,16 @@ const HomePage5 = ({ onScroll }) => {
           </div>
 
           <div className="flex justify-center pt-16">
-            <button className="pb-3 px-5 w-max text-white  cursor-pointer border-b-2 border-color5 border-opacity-30 hover:text-color8 hover:border-color8 focus:border-color8 outline-none focus:outline-none">
+            <button className="pb-3 px-5 w-max text-white  cursor-pointer border-b-2 border-color5 border-opacity-0 hover:text-color8 hover:border-color8 focus:border-color8 outline-none focus:outline-none">
               <h2 className="text-sm font-semibold">Buy</h2>
             </button>
-            <button className="pb-3 px-5 w-max text-white  cursor-pointer border-b-2 border-color5 border-opacity-30 hover:text-color8 hover:border-color8 focus:border-color8 outline-none focus:outline-none">
+            <button className="pb-3 px-5 w-max text-white  cursor-pointer border-b-2 border-color5 border-opacity-0 hover:text-color8 hover:border-color8 focus:border-color8 outline-none focus:outline-none">
               <h2 className="text-sm font-semibold">Rent</h2>
             </button>
-            <button className="pb-3 px-5 w-max text-white  cursor-pointer border-b-2 border-color5 border-opacity-30 hover:text-color8 hover:border-color8 focus:border-color8 outline-none focus:outline-none">
+            <button className="pb-3 px-5 w-max text-white  cursor-pointer border-b-2 border-color5 border-opacity-0 hover:text-color8 hover:border-color8 focus:border-color8 outline-none focus:outline-none">
               <h2 className="text-sm font-semibold">Share</h2>
             </button>
-            <button className="pb-3 px-5 w-max text-white  cursor-pointer border-b-2 border-color5 border-opacity-30 hover:text-color8 hover:border-color8 focus:border-color8 outline-none focus:outline-none">
+            <button className="pb-3 px-5 w-max text-white  cursor-pointer border-b-2 border-color5 border-opacity-0 hover:text-color8 hover:border-color8 focus:border-color8 outline-none focus:outline-none">
               <h2 className="text-sm font-semibold">Commercial</h2>
             </button>
           </div>
@@ -465,7 +465,7 @@ const HomePage5 = ({ onScroll }) => {
         {/* <!--  --> */}
 
         <div className="flex flex-col m-auto p-auto ">
-          <div className="flex overflow-x-scroll  md:pb-10 " >
+          <div className="flex overflow-x-scroll pb-5 md:pb-10 " >
             <div className=" flex flex-nowrap space-x-2 sm:space-x-4 lg:space-x-4 lg:w-full  " >
 
              
