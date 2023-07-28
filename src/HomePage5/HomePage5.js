@@ -251,7 +251,7 @@ const HomePage5 = ({ onScroll }) => {
               {/* Carts 01 */}
               <div className="inline-block cursor-pointer lg:w-full">
                 <div className="w-80 md:w-full overflow-hidden duration-300 shadow-lg " >
-                  <div className="">
+                  <div className=" cursor-pointer">
                     <div className="">
                       <div className="">
                         <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2658.svg" />
@@ -287,7 +287,7 @@ const HomePage5 = ({ onScroll }) => {
                           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 p-1 my-auto cursor-pointer rounded-full focus:bg-color1 text-color5 hover:text-white hover:bg-color1">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
                           </svg>
-                          <img src="Buy/Group 9006.svg" />
+                          <img className=" cursor-pointer hover:opacity-50" src="Buy/Group 9006.svg" />
                         </div>
                       </div>
                     </div>
@@ -299,7 +299,7 @@ const HomePage5 = ({ onScroll }) => {
               {/* Carts 01 */}
               <div className="inline-block cursor-pointer lg:w-full">
                 <div className="w-80 md:w-full overflow-hidden duration-300 shadow-lg " >
-                  <div className="">
+                  <div className=" cursor-pointer">
                     <div className="">
                       <div className="">
                         <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2657.svg" />
@@ -335,7 +335,7 @@ const HomePage5 = ({ onScroll }) => {
                           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 p-1 my-auto cursor-pointer rounded-full focus:bg-color1 text-color5 hover:text-white hover:bg-color1">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
                           </svg>
-                          <img src="Buy/Group 9006.svg" />
+                          <img className="cursor-pointer hover:opacity-50" src="Buy/Group 9006.svg" />
                         </div>
                       </div>
                     </div>
@@ -347,7 +347,7 @@ const HomePage5 = ({ onScroll }) => {
               {/* Carts 01 */}
               <div className="inline-block cursor-pointer lg:w-full">
                 <div className="w-80 md:w-full overflow-hidden duration-300 shadow-lg " >
-                  <div className="">
+                  <div className=" cursor-pointer">
                     <div className="">
                       <div className="">
                         <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2656.svg" />
@@ -383,7 +383,7 @@ const HomePage5 = ({ onScroll }) => {
                           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 p-1 my-auto cursor-pointer rounded-full focus:bg-color1 text-color5 hover:text-white hover:bg-color1">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
                           </svg>
-                          <img src="Buy/Group 9006.svg" />
+                          <img className="cursor-pointer hover:opacity-50" src="Buy/Group 9006.svg" />
                         </div>
                       </div>
                     </div>
@@ -431,7 +431,7 @@ const HomePage5 = ({ onScroll }) => {
                           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 p-1 my-auto cursor-pointer rounded-full focus:bg-color1 text-color5 hover:text-white hover:bg-color1">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
                           </svg>
-                          <img src="Buy/Group 9006.svg" />
+                          <img className="cursor-pointer hover:opacity-50" src="Buy/Group 9006.svg" />
                         </div>
                       </div>
                     </div>
@@ -468,7 +468,7 @@ const HomePage5 = ({ onScroll }) => {
           <div className="flex overflow-x-scroll pb-5 md:pb-10 " >
             <div className=" flex flex-nowrap space-x-2 sm:space-x-4 lg:space-x-4 lg:w-full  " >
 
-             
+
               {/* cart */}
               <div className="inline-block cursor-pointer 2xl:w-full">
                 <div className="w-60 sm:w-64 lg:w-80 max-w-xs overflow-hidden shadow-md hover:shadow-xl  rounded-sm md:rounded bg-white  duration-300 ease-in-out" >

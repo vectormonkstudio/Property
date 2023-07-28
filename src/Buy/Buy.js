@@ -21,9 +21,11 @@ const Buy = ({ onScroll }) => {
 
 
 
-            <div className="xl:pt-5 px-4 xs:px-6 sm:px-8 lg:px-20">
+            {/* for desktop ==> search */}
+            <div className="hidden md:block xl:pt-5 px-4 xs:px-6 sm:px-8 lg:px-20">
                 <h3 className="sm:hidden pb-5 md:text-xl lg:text-2xl font-bold text-color5 ">Property for Sale</h3>
-                <div className="md:flex md:justify-end">
+                {/* search */}
+                <div className="sm:flex sm:justify-end">
                     <div className="my-auto sm:w-1/2 md:w-2/5 2xl:w-1/3">
                         <div className="flex justify-end right-0 border-2 border-color5 border-opacity-30 rounded-sm lg:rounded">
                             <svg aria-hidden="true" className="mt-2 2xl:mt-2.5 ml-2 w-6 h-6 text-color5 text-opacity-50 " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
@@ -60,7 +62,7 @@ const Buy = ({ onScroll }) => {
                             </div>
 
                             {/* Property Status */}
-                        <div className="pt-2">
+                            <div className="pt-2">
                                 <h2 className="pt-5 pb-3 2xl:py-6 text-lg text-white font-semibold">Property Status</h2>
                                 <div className="flex flex-wrap gap-4">
                                     <div class="flex items-start ">
@@ -99,105 +101,100 @@ const Buy = ({ onScroll }) => {
 
                             </div>
 
-                        {/* Property Type */}
-                        <div className="py-4">
-                            <h2 className="pt-5 pb-3 2xl:py-5 text-lg text-white font-semibold">Property Type</h2>
-                            <div className=" space-y-4 2xl:space-y-4 ">
-                                <div class="flex items-start ">
-                                    <div class="flex items-center h-5">
-                                        <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
+                            {/* Property Type */}
+                            <div className="py-4">
+                                <h2 className="pt-5 pb-3 2xl:py-5 text-lg text-white font-semibold">Property Type</h2>
+                                <div className=" space-y-4 2xl:space-y-4 ">
+                                    <div class="flex items-start ">
+                                        <div class="flex items-center h-5">
+                                            <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
+                                        </div>
+                                        <div class="ml-2 2xl:ml-3 text-sm">
+                                            <label for="remember" class="text-white dark:text-gray-300">Any Property</label>
+                                        </div>
                                     </div>
-                                    <div class="ml-2 2xl:ml-3 text-sm">
-                                        <label for="remember" class="text-white dark:text-gray-300">Any Property</label>
+                                    <div class="flex items-start ">
+                                        <div class="flex items-center h-5">
+                                            <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
+                                        </div>
+                                        <div class="ml-2 2xl:ml-3 text-sm">
+                                            <label for="remember" class="text-white dark:text-gray-300">House</label>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start ">
+                                        <div class="flex items-center h-5">
+                                            <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
+                                        </div>
+                                        <div class="ml-2 2xl:ml-3 text-sm">
+                                            <label for="remember" class="text-white dark:text-gray-300">Detached House</label>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start ">
+                                        <div class="flex items-center h-5">
+                                            <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
+                                        </div>
+                                        <div class="ml-2 2xl:ml-3 text-sm">
+                                            <label for="remember" class="text-white dark:text-gray-300">Semi-Detached House</label>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start ">
+                                        <div class="flex items-center h-5">
+                                            <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
+                                        </div>
+                                        <div class="ml-2 2xl:ml-3 text-sm">
+                                            <label for="remember" class="text-white dark:text-gray-300">End of Terrace House</label>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start ">
+                                        <div class="flex items-center h-5">
+                                            <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
+                                        </div>
+                                        <div class="ml-2 2xl:ml-3 text-sm">
+                                            <label for="remember" class="text-white dark:text-gray-300">Townhouse</label>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start ">
+                                        <div class="flex items-center h-5">
+                                            <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
+                                        </div>
+                                        <div class="ml-2 2xl:ml-3 text-sm">
+                                            <label for="remember" class="text-white dark:text-gray-300">Apartment</label>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start ">
+                                        <div class="flex items-center h-5">
+                                            <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
+                                        </div>
+                                        <div class="ml-2 2xl:ml-3 text-sm">
+                                            <label for="remember" class="text-white dark:text-gray-300">Duplex</label>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start ">
+                                        <div class="flex items-center h-5">
+                                            <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
+                                        </div>
+                                        <div class="ml-2 2xl:ml-3 text-sm">
+                                            <label for="remember" class="text-white dark:text-gray-300">Studio Apartment</label>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start ">
+                                        <div class="flex items-center h-5">
+                                            <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
+                                        </div>
+                                        <div class="ml-2 2xl:ml-3 text-sm">
+                                            <label for="remember" class="text-white dark:text-gray-300">Site</label>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start ">
+                                        <div class="flex items-center h-5">
+                                            <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
+                                        </div>
+                                        <div class="ml-2 2xl:ml-3 text-sm">
+                                            <label for="remember" class="text-white dark:text-gray-300">Bungalow</label>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="flex items-start ">
-                                    <div class="flex items-center h-5">
-                                        <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
-                                    </div>
-                                    <div class="ml-2 2xl:ml-3 text-sm">
-                                        <label for="remember" class="text-white dark:text-gray-300">House</label>
-                                    </div>
-                                </div>
-                                <div class="flex items-start ">
-                                    <div class="flex items-center h-5">
-                                        <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
-                                    </div>
-                                    <div class="ml-2 2xl:ml-3 text-sm">
-                                        <label for="remember" class="text-white dark:text-gray-300">Detached House</label>
-                                    </div>
-                                </div>
-                                <div class="flex items-start ">
-                                    <div class="flex items-center h-5">
-                                        <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
-                                    </div>
-                                    <div class="ml-2 2xl:ml-3 text-sm">
-                                        <label for="remember" class="text-white dark:text-gray-300">Semi-Detached House</label>
-                                    </div>
-                                </div>
-                                <div class="flex items-start ">
-                                    <div class="flex items-center h-5">
-                                        <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
-                                    </div>
-                                    <div class="ml-2 2xl:ml-3 text-sm">
-                                        <label for="remember" class="text-white dark:text-gray-300">End of Terrace House</label>
-                                    </div>
-                                </div>
-                                <div class="flex items-start ">
-                                    <div class="flex items-center h-5">
-                                        <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
-                                    </div>
-                                    <div class="ml-2 2xl:ml-3 text-sm">
-                                        <label for="remember" class="text-white dark:text-gray-300">Townhouse</label>
-                                    </div>
-                                </div>
-                                <div class="flex items-start ">
-                                    <div class="flex items-center h-5">
-                                        <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
-                                    </div>
-                                    <div class="ml-2 2xl:ml-3 text-sm">
-                                        <label for="remember" class="text-white dark:text-gray-300">Apartment</label>
-                                    </div>
-                                </div>
-                                <div class="flex items-start ">
-                                    <div class="flex items-center h-5">
-                                        <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
-                                    </div>
-                                    <div class="ml-2 2xl:ml-3 text-sm">
-                                        <label for="remember" class="text-white dark:text-gray-300">Duplex</label>
-                                    </div>
-                                </div>
-                                <div class="flex items-start ">
-                                    <div class="flex items-center h-5">
-                                        <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
-                                    </div>
-                                    <div class="ml-2 2xl:ml-3 text-sm">
-                                        <label for="remember" class="text-white dark:text-gray-300">Studio Apartment</label>
-                                    </div>
-                                </div>
-                                <div class="flex items-start ">
-                                    <div class="flex items-center h-5">
-                                        <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
-                                    </div>
-                                    <div class="ml-2 2xl:ml-3 text-sm">
-                                        <label for="remember" class="text-white dark:text-gray-300">Site</label>
-                                    </div>
-                                </div>
-                                <div class="flex items-start ">
-                                    <div class="flex items-center h-5">
-                                        <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
-                                    </div>
-                                    <div class="ml-2 2xl:ml-3 text-sm">
-                                        <label for="remember" class="text-white dark:text-gray-300">Bungalow</label>
-                                    </div>
-                                </div>
-                            </div>
 
-                        </div>
-
-                            {/* See More */}
-                            <div className="flex justify-center 2xl:py-10">
-                                <h2 className="text-color1 cursor-pointer hover:underline">See More</h2>
                             </div>
 
                             {/* Price */}
@@ -452,43 +449,43 @@ const Buy = ({ onScroll }) => {
 
                         {/* Property Status */}
                         <div className="pt-2">
-                                <h2 className="pt-5 pb-3 2xl:py-6 text-lg text-white font-semibold">Property Status</h2>
-                                <div className="flex flex-wrap gap-4">
-                                    <div class="flex items-start ">
-                                        <div class="flex items-center h-5">
-                                            <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
-                                        </div>
-                                        <div class="ml-2 2xl:ml3 text-sm">
-                                            <label for="remember" class=" text-white dark:text-gray-300">Buy</label>
-                                        </div>
+                            <h2 className="pt-5 pb-3 2xl:py-6 text-lg text-white font-semibold">Property Status</h2>
+                            <div className="flex flex-wrap gap-4">
+                                <div class="flex items-start ">
+                                    <div class="flex items-center h-5">
+                                        <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
                                     </div>
-                                    <div class="flex items-start ">
-                                        <div class="flex items-center h-5">
-                                            <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
-                                        </div>
-                                        <div class="ml-2 2xl:ml3 text-sm">
-                                            <label for="remember" class=" text-white dark:text-gray-300">Rent</label>
-                                        </div>
-                                    </div>
-                                    <div class="flex items-start ">
-                                        <div class="flex items-center h-5">
-                                            <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
-                                        </div>
-                                        <div class="ml-2 2xl:ml3 text-sm">
-                                            <label for="remember" class=" text-white dark:text-gray-300">Share</label>
-                                        </div>
-                                    </div>
-                                    <div class="flex items-start ">
-                                        <div class="flex items-center h-5">
-                                            <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
-                                        </div>
-                                        <div class="ml-2 2xl:ml3 text-sm">
-                                            <label for="remember" class=" text-white dark:text-gray-300">Commercial</label>
-                                        </div>
+                                    <div class="ml-2 2xl:ml3 text-sm">
+                                        <label for="remember" class=" text-white dark:text-gray-300">Buy</label>
                                     </div>
                                 </div>
-
+                                <div class="flex items-start ">
+                                    <div class="flex items-center h-5">
+                                        <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
+                                    </div>
+                                    <div class="ml-2 2xl:ml3 text-sm">
+                                        <label for="remember" class=" text-white dark:text-gray-300">Rent</label>
+                                    </div>
+                                </div>
+                                <div class="flex items-start ">
+                                    <div class="flex items-center h-5">
+                                        <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
+                                    </div>
+                                    <div class="ml-2 2xl:ml3 text-sm">
+                                        <label for="remember" class=" text-white dark:text-gray-300">Share</label>
+                                    </div>
+                                </div>
+                                <div class="flex items-start ">
+                                    <div class="flex items-center h-5">
+                                        <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
+                                    </div>
+                                    <div class="ml-2 2xl:ml3 text-sm">
+                                        <label for="remember" class=" text-white dark:text-gray-300">Commercial</label>
+                                    </div>
+                                </div>
                             </div>
+
+                        </div>
 
                         {/* Property Type */}
                         <div className="py-4">
@@ -584,11 +581,6 @@ const Buy = ({ onScroll }) => {
                                 </div>
                             </div>
 
-                        </div>
-
-                        {/* See More */}
-                        <div className="flex justify-center 2xl:py-10">
-                            <h2 className="text-color1 cursor-pointer hover:underline">See More</h2>
                         </div>
 
                         {/* Price */}
@@ -821,7 +813,20 @@ const Buy = ({ onScroll }) => {
                 </div>
 
 
-
+                {/* for mobile ==> search */}
+                <div className="pt-5 md:hidden">
+                    <h3 className="sm:hidden pb-5 md:text-xl lg:text-2xl font-bold text-color5 ">Property for Sale</h3>
+                    {/* search */}
+                    <div className="sm:flex sm:justify-end">
+                        <div className="my-auto sm:w-1/2 md:w-2/5 2xl:w-1/3">
+                            <div className="flex justify-end right-0 border-2 border-color5 border-opacity-30 rounded-sm lg:rounded">
+                                <svg aria-hidden="true" className="mt-2 2xl:mt-2.5 ml-2 w-6 h-6 text-color5 text-opacity-50 " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                                <input type="search" id="default-search" className="w-full pl-2 pr-4 py-2.5 2xl:py-2.5 text-sm 2xl:text-base outline-none placeholder-color5 placeholder-opacity-50 focus:placeholder-opacity-100" placeholder="County, Cite, Town or Aria" />
+                            </div>
+                        </div>
+                    </div>
+                    <h3 className=" py-4  md:text-left md:pb-10 md:text-xl lg:text-2xl font-bold text-color5 ">2,857 Properties for Sale in Dublin City</h3>
+                </div>
 
 
 
@@ -837,15 +842,13 @@ const Buy = ({ onScroll }) => {
                     <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-4">
 
 
-                        {/* Carts 01 */}
-                        <div className="">
+                        {/* Carts */}
+                        <div className=" cursor-pointer">
                             <div className="">
                                 <div className="">
                                     <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2658.svg" />
                                 </div>
-                                <div
-                                    className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 rounded text-white font-bold bg-color1">
-                                    $2,8000</div>
+                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 rounded text-white font-bold bg-color1">$2,8000</div>
                             </div>
                             <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
                                 <div>
@@ -879,7 +882,7 @@ const Buy = ({ onScroll }) => {
                                             <path stroke-linecap="round" stroke-linejoin="round"
                                                 d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
                                         </svg>
-                                        <img src="Buy/Group 9006.svg" />
+                                        <img className="cursor-pointer hover:opacity-50" src="Buy/Group 9006.svg" />
                                     </div>
                                 </div>
                             </div>
@@ -887,14 +890,12 @@ const Buy = ({ onScroll }) => {
 
 
                         {/* cart */}
-                        <div className="">
+                        <div className=" cursor-pointer">
                             <div className="">
                                 <div className="">
                                     <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2657.svg" />
                                 </div>
-                                <div
-                                    className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 rounded text-white font-bold bg-color1">
-                                    $2,8000</div>
+                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 rounded text-white font-bold bg-color1">$2,8000</div>
                             </div>
                             <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
                                 <div>
@@ -928,7 +929,7 @@ const Buy = ({ onScroll }) => {
                                             <path stroke-linecap="round" stroke-linejoin="round"
                                                 d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
                                         </svg>
-                                        <img src="Buy/Group 9006.svg" />
+                                        <img className="cursor-pointer hover:opacity-50" src="Buy/Group 9006.svg" />
                                     </div>
                                 </div>
                             </div>
@@ -936,14 +937,12 @@ const Buy = ({ onScroll }) => {
 
 
                         {/* cart */}
-                        <div className="">
+                        <div className=" cursor-pointer">
                             <div className="">
                                 <div className="">
                                     <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2656.svg" />
                                 </div>
-                                <div
-                                    className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 rounded text-white font-bold bg-color1">
-                                    $2,8000</div>
+                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 rounded text-white font-bold bg-color1"> $2,8000</div>
                             </div>
                             <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
                                 <div>
@@ -977,7 +976,7 @@ const Buy = ({ onScroll }) => {
                                             <path stroke-linecap="round" stroke-linejoin="round"
                                                 d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
                                         </svg>
-                                        <img src="Buy/Group 9006.svg" />
+                                        <img className="cursor-pointer hover:opacity-50" src="Buy/Group 9006.svg" />
                                     </div>
                                 </div>
                             </div>

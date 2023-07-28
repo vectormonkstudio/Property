@@ -18,6 +18,8 @@ import {
   Link,
   Outlet
 } from 'react-router-dom';
+import StudentAccommodation from "./StudentAccommodation/Student Accommodation";
+import Commercial from "./Commercial/Commercial";
 
 function App() {
   const [scrollToContent, contentRef] = useScroll()
@@ -37,14 +39,19 @@ function App() {
           <Route path="/product_details_for_sell" element={<ProductDetailsForSell />} />
           <Route path="/add_new_property" element={<AddNewProperty />} />
           <Route path="/add_new_property2" element={<AddNewProperty2 />} />
+
+          
+          <Route path="/student_accommodation" element={<StudentAccommodation />} />
+          <Route path="/commercial" element={<Commercial />} />
+
+
+
+
+
+
+
         </Routes>
       </BrowserRouter>
-
-
-
-
-      {/* <Introduction/> */}
-      {/* <SubCategories/> */}
 
 
 
@@ -62,6 +69,11 @@ function App() {
       {/* <ProductDetailsForSell /> */}
       {/* <AddNewProperty /> */}
       {/* <AddNewProperty2/> */}
+      {/* <Introduction/> */}
+      {/* <SubCategories/> */}
+      {/* <StudentAccommodation /> */}
+      {/* <Commercial/> */}
+
 
 
 
