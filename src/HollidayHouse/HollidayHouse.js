@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Rent = ({ onScroll }) => {
+const HollidayHouse = ({ onScroll }) => {
     const [filter, setFilter] = useState(false);
     const [bedroommin, setBedroommin] = useState(false);
     const [bedroommax, setBedroommax] = useState(false);
@@ -37,8 +37,8 @@ const Rent = ({ onScroll }) => {
             </div>
 
 
-
             <div className=" px-4 xs:px-6 sm:px-8 lg:px-20  pb-10 md:flex md:space-x-4">
+
 
 
 
@@ -129,13 +129,36 @@ const Rent = ({ onScroll }) => {
                                             <label for="remember" class="text-white dark:text-gray-300">Apartment</label>
                                         </div>
                                     </div>
-
                                     <div class="flex items-start ">
                                         <div class="flex items-center h-5">
                                             <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
                                         </div>
                                         <div class="ml-2 2xl:ml-3 text-sm">
-                                            <label for="remember" class="text-white dark:text-gray-300">Studio Apartment</label>
+                                            <label for="remember" class="text-white dark:text-gray-300">Serviced Apartment</label>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start ">
+                                        <div class="flex items-center h-5">
+                                            <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
+                                        </div>
+                                        <div class="ml-2 2xl:ml-3 text-sm">
+                                            <label for="remember" class="text-white dark:text-gray-300">Holiday House</label>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start ">
+                                        <div class="flex items-center h-5">
+                                            <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
+                                        </div>
+                                        <div class="ml-2 2xl:ml-3 text-sm">
+                                            <label for="remember" class="text-white dark:text-gray-300">Single Room</label>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start ">
+                                        <div class="flex items-center h-5">
+                                            <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
+                                        </div>
+                                        <div class="ml-2 2xl:ml-3 text-sm">
+                                            <label for="remember" class="text-white dark:text-gray-300">Ensuite Room</label>
                                         </div>
                                     </div>
 
@@ -461,13 +484,36 @@ const Rent = ({ onScroll }) => {
                                         <label for="remember" class="text-white dark:text-gray-300">Apartment</label>
                                     </div>
                                 </div>
-
                                 <div class="flex items-start ">
                                     <div class="flex items-center h-5">
                                         <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
                                     </div>
                                     <div class="ml-2 2xl:ml-3 text-sm">
-                                        <label for="remember" class="text-white dark:text-gray-300">Studio Apartment</label>
+                                        <label for="remember" class="text-white dark:text-gray-300">Serviced Apartment</label>
+                                    </div>
+                                </div>
+                                <div class="flex items-start ">
+                                    <div class="flex items-center h-5">
+                                        <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
+                                    </div>
+                                    <div class="ml-2 2xl:ml-3 text-sm">
+                                        <label for="remember" class="text-white dark:text-gray-300">Holiday House</label>
+                                    </div>
+                                </div>
+                                <div class="flex items-start ">
+                                    <div class="flex items-center h-5">
+                                        <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
+                                    </div>
+                                    <div class="ml-2 2xl:ml-3 text-sm">
+                                        <label for="remember" class="text-white dark:text-gray-300">Single Room</label>
+                                    </div>
+                                </div>
+                                <div class="flex items-start ">
+                                    <div class="flex items-center h-5">
+                                        <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
+                                    </div>
+                                    <div class="ml-2 2xl:ml-3 text-sm">
+                                        <label for="remember" class="text-white dark:text-gray-300">Ensuite Room</label>
                                     </div>
                                 </div>
 
@@ -705,7 +751,6 @@ const Rent = ({ onScroll }) => {
                 </div>
 
 
-
                 {/* for mobile ==> search */}
                 <div className="pt-5 md:hidden">
                     <h3 className="sm:hidden pb-5 md:text-xl lg:text-2xl font-bold text-color5 ">Property for Sale</h3>
@@ -725,7 +770,11 @@ const Rent = ({ onScroll }) => {
 
 
                 {/* Carts /Product  */}
+
                 <div className=" w-full pt-4 sm:pt-0">
+
+
+
 
                     {/* Carts */}
                     <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-4">
@@ -738,7 +787,7 @@ const Rent = ({ onScroll }) => {
                                 </div>
                                 <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-bold bg-color1">
                                     <span className="2xl:text-xl">€1,550</span>
-                                    <span className="text-xs ml-1">Per Month</span>
+                                    <span className="text-xs ml-1">Per Week</span>
                                 </div>
                             </div>
                             <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
@@ -789,7 +838,7 @@ const Rent = ({ onScroll }) => {
                                 </div>
                                 <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-bold bg-color1">
                                     <span className="2xl:text-xl">€1,550</span>
-                                    <span className="text-xs ml-1">Per Month</span>
+                                    <span className="text-xs ml-1">Per Week</span>
                                 </div>
                             </div>
                             <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
@@ -839,7 +888,7 @@ const Rent = ({ onScroll }) => {
                                 </div>
                                 <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-bold bg-color1">
                                     <span className="2xl:text-xl">€1,550</span>
-                                    <span className="text-xs ml-1">Per Month</span>
+                                    <span className="text-xs ml-1">Per Week</span>
                                 </div>
                             </div>
                             <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
@@ -886,6 +935,11 @@ const Rent = ({ onScroll }) => {
 
 
                     </div>
+
+
+
+
+
                 </div>
 
 
@@ -898,4 +952,4 @@ const Rent = ({ onScroll }) => {
     )
 }
 
-export default Rent;
+export default HollidayHouse;

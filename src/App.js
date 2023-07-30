@@ -20,6 +20,8 @@ import {
 } from 'react-router-dom';
 import StudentAccommodation from "./StudentAccommodation/Student Accommodation";
 import Commercial from "./Commercial/Commercial";
+import ParkingForSale from "./ParkingForSale/ParkingForSale";
+import HollidayHouse from "./HollidayHouse/HollidayHouse";
 
 function App() {
   const [scrollToContent, contentRef] = useScroll()
@@ -43,9 +45,8 @@ function App() {
           
           <Route path="/student_accommodation" element={<StudentAccommodation />} />
           <Route path="/commercial" element={<Commercial />} />
-
-
-
+          <Route path="/parking_for_sale" element={<ParkingForSale />} />
+          <Route path="/holliday_house" element={<HollidayHouse />} />
 
 
 
@@ -57,7 +58,6 @@ function App() {
 
 
 
-      {/* <HomePage5 /> */}
 
       {/* <HomePage5/> */}
       {/* <SignIn/> */}
@@ -73,10 +73,8 @@ function App() {
       {/* <SubCategories/> */}
       {/* <StudentAccommodation /> */}
       {/* <Commercial/> */}
-
-
-
-
+      {/* <ParkingForSale/> */}
+      {/* <HollidayHouse/> */}
 
 
 

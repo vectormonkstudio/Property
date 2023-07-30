@@ -3,7 +3,7 @@ import React from "react";
 const Share2 = ({ onScroll }) => {
 
     return (
-        <div className="px-4 md:px-8 lg:px-20 py-10 ">
+        <div className="pt-32 px-4 md:px-8 lg:px-20 py-10 ">
 
 
             <div className="space-y-4">

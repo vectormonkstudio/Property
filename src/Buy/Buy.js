@@ -848,29 +848,32 @@ const Buy = ({ onScroll }) => {
                                 <div className="">
                                     <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2658.svg" />
                                 </div>
-                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 rounded text-white font-bold bg-color1">$2,8000</div>
+                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-bold bg-color1">
+                                    <span className="2xl:text-xl">€1,550</span>
+                                    <span className="text-xs ml-1"></span>
+                                </div>
                             </div>
                             <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
                                 <div>
                                     <h2 className="text-lg md:text-xl font-bold text-color5">Pool apartment</h2>
                                     <h2 className="text-xs md:text-sm text-color5">18 Grattan St, Brookly</h2>
                                 </div>
-                                <div className="flex flex-wrap space-x-3 md:space-x-4 text-color5">
+                                <div className="flex flex-wrap gap-3 xs:gap-4 text-color5">
                                     <div className="text-sm flex space-x-1">
-                                        <img className=" mr-1 w-4 " src="HomePage5/Vector.svg" />
-                                        <h3 className="text-xs">6 Bed</h3>
+                                        <img className=" mr-1 w-4 xs:w-5 " src="HomePage5/Vector.svg" />
+                                        <h3 className="text-xs my-auto">6 Bed</h3>
                                     </div>
                                     <div className="text-sm flex space-x-1">
-                                        <img className=" mr-1 w-4 " src="HomePage5/Layer_1.svg" />
-                                        <h3 className="text-xs">3 Baths</h3>
+                                        <img className=" mr-1 w-4 xs:w-5 " src="HomePage5/Layer_1.svg" />
+                                        <h3 className="text-xs my-auto">3 Baths</h3>
                                     </div>
                                     <div className="text-sm flex space-x-1">
-                                        <img className=" mr-1 w-3 " src="HomePage5/Group 8935.svg" />
-                                        <h3 className="text-xs">300sqft</h3>
+                                        <img className=" mr-1 w-3 xs:w-4 " src="HomePage5/Group 8935.svg" />
+                                        <h3 className="text-xs my-auto">300sqft</h3>
                                     </div>
                                     <div className="text-sm flex space-x-1">
-                                        <img className=" mr-1 w-3 " src="HomePage5/Group 10383.svg" />
-                                        <h3 className="text-xs">300sqft</h3>
+                                        <img className=" mr-1 w-3 xs:w-4 " src="HomePage5/Group 10383.svg" />
+                                        <h3 className="text-xs my-auto">House</h3>
                                     </div>
                                 </div>
                                 <div className=" flex justify-between py-2 border-t border-color5 border-opacity-30">
@@ -895,29 +898,32 @@ const Buy = ({ onScroll }) => {
                                 <div className="">
                                     <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2657.svg" />
                                 </div>
-                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 rounded text-white font-bold bg-color1">$2,8000</div>
+                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-bold bg-color1">
+                                    <span className="2xl:text-xl">€1,550</span>
+                                    <span className="text-xs ml-1"></span>
+                                </div>
                             </div>
                             <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
                                 <div>
                                     <h2 className="text-lg md:text-xl font-bold text-color5">Pool apartment</h2>
                                     <h2 className="text-xs md:text-sm text-color5">18 Grattan St, Brookly</h2>
                                 </div>
-                                <div className="flex flex-wrap space-x-3 md:space-x-4 text-color5">
+                                <div className="flex flex-wrap gap-3 xs:gap-4 text-color5">
                                     <div className="text-sm flex space-x-1">
-                                        <img className=" mr-1 w-4" src="HomePage5/Vector.svg" />
-                                        <h3 className="text-xs">6 Bed</h3>
+                                        <img className=" mr-1 w-4 xs:w-5 " src="HomePage5/Vector.svg" />
+                                        <h3 className="text-xs my-auto">6 Bed</h3>
                                     </div>
                                     <div className="text-sm flex space-x-1">
-                                        <img className=" mr-1 w-4" src="HomePage5/Layer_1.svg" />
-                                        <h3 className="text-xs">3 Baths</h3>
+                                        <img className=" mr-1 w-4 xs:w-5 " src="HomePage5/Layer_1.svg" />
+                                        <h3 className="text-xs my-auto">3 Baths</h3>
                                     </div>
                                     <div className="text-sm flex space-x-1">
-                                        <img className=" mr-1 w-3" src="HomePage5/Group 8935.svg" />
-                                        <h3 className="text-xs">300sqft</h3>
+                                        <img className=" mr-1 w-3 xs:w-4 " src="HomePage5/Group 8935.svg" />
+                                        <h3 className="text-xs my-auto">300sqft</h3>
                                     </div>
                                     <div className="text-sm flex space-x-1">
-                                        <img className=" mr-1 w-3" src="HomePage5/Group 10383.svg" />
-                                        <h3 className="text-xs">300sqft</h3>
+                                        <img className=" mr-1 w-3 xs:w-4 " src="HomePage5/Group 10383.svg" />
+                                        <h3 className="text-xs my-auto">Detached House</h3>
                                     </div>
                                 </div>
                                 <div className=" flex justify-between py-2 border-t border-color5 border-opacity-30">
@@ -942,29 +948,32 @@ const Buy = ({ onScroll }) => {
                                 <div className="">
                                     <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2656.svg" />
                                 </div>
-                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 rounded text-white font-bold bg-color1"> $2,8000</div>
+                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-bold bg-color1">
+                                    <span className="2xl:text-xl">€1,550</span>
+                                    <span className="text-xs ml-1"></span>
+                                </div>
                             </div>
                             <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
                                 <div>
                                     <h2 className="text-lg md:text-xl font-bold text-color5">Pool apartment</h2>
                                     <h2 className="text-xs md:text-sm text-color5">18 Grattan St, Brookly</h2>
                                 </div>
-                                <div className="flex flex-wrap space-x-3 md:space-x-4 text-color5">
+                                <div className="flex flex-wrap gap-3 xs:gap-4 text-color5">
                                     <div className="text-sm flex space-x-1">
-                                        <img className=" mr-1 w-4" src="HomePage5/Vector.svg" />
-                                        <h3 className="text-xs">6 Bed</h3>
+                                        <img className=" mr-1 w-4 xs:w-5 " src="HomePage5/Vector.svg" />
+                                        <h3 className="text-xs my-auto">6 Bed</h3>
                                     </div>
                                     <div className="text-sm flex space-x-1">
-                                        <img className=" mr-1 w-4" src="HomePage5/Layer_1.svg" />
-                                        <h3 className="text-xs">3 Baths</h3>
+                                        <img className=" mr-1 w-4 xs:w-5 " src="HomePage5/Layer_1.svg" />
+                                        <h3 className="text-xs my-auto">3 Baths</h3>
                                     </div>
                                     <div className="text-sm flex space-x-1">
-                                        <img className=" mr-1 w-3" src="HomePage5/Group 8935.svg" />
-                                        <h3 className="text-xs">300sqft</h3>
+                                        <img className=" mr-1 w-3 xs:w-4 " src="HomePage5/Group 8935.svg" />
+                                        <h3 className="text-xs my-auto">300sqft</h3>
                                     </div>
                                     <div className="text-sm flex space-x-1">
-                                        <img className=" mr-1 w-3" src="HomePage5/Group 10383.svg" />
-                                        <h3 className="text-xs">300sqft</h3>
+                                        <img className=" mr-1 w-3 xs:w-4 " src="HomePage5/Group 10383.svg" />
+                                        <h3 className="text-xs my-auto">Townhouse</h3>
                                     </div>
                                 </div>
                                 <div className=" flex justify-between py-2 border-t border-color5 border-opacity-30">
