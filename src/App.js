@@ -22,6 +22,7 @@ import StudentAccommodation from "./StudentAccommodation/Student Accommodation";
 import Commercial from "./Commercial/Commercial";
 import ParkingForSale from "./ParkingForSale/ParkingForSale";
 import HollidayHouse from "./HollidayHouse/HollidayHouse";
+import ProductDetailsForRent from "./ProductDetailsForRent/ProductDetailsForRent";
 
 function App() {
   const [scrollToContent, contentRef] = useScroll()
@@ -67,6 +68,7 @@ function App() {
       {/* <Share1/> */}
       {/* <Share2/> */}
       {/* <ProductDetailsForSell /> */}
+      <ProductDetailsForRent/>
       {/* <AddNewProperty /> */}
       {/* <AddNewProperty2/> */}
       {/* <Introduction/> */}

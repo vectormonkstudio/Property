@@ -36,7 +36,7 @@ const Header = () => {
               </div>
 
               {/* Logo */}
-              <a href="/home" className="mx-auto w-1/2 flex justify-center">
+              <a href="/" className="mx-auto w-1/2 flex justify-center">
                 <img className=" w-40" src="Header/logo.svg" />
               </a>
 
