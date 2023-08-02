@@ -251,7 +251,7 @@ const HomePage5 = ({ onScroll }) => {
               {/* Carts 01 */}
               <div className="inline-block cursor-pointer lg:w-full">
                 <div className="w-80 md:w-full overflow-hidden duration-300 shadow-lg " >
-                  <div className=" cursor-pointer">
+                  <div className=" md:cursor-pointer">
                     <div className="">
                       <div className="">
                         <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2658.svg" />
@@ -259,7 +259,7 @@ const HomePage5 = ({ onScroll }) => {
                       <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 rounded text-white font-bold bg-color1">$2,8000</div>
                     </div>
                     <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
-                      <div>
+                      <div className=" space-y-2">
                         <h2 className="text-lg md:text-xl font-bold text-color5">Pool apartment</h2>
                         <h2 className="text-xs md:text-sm text-color5">18 Grattan St, Brookly</h2>
                       </div>
@@ -299,7 +299,7 @@ const HomePage5 = ({ onScroll }) => {
               {/* Carts 01 */}
               <div className="inline-block cursor-pointer lg:w-full">
                 <div className="w-80 md:w-full overflow-hidden duration-300 shadow-lg " >
-                  <div className=" cursor-pointer">
+                  <div className=" md:cursor-pointer">
                     <div className="">
                       <div className="">
                         <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2657.svg" />
@@ -307,7 +307,7 @@ const HomePage5 = ({ onScroll }) => {
                       <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 rounded text-white font-bold bg-color1">$2,8000</div>
                     </div>
                     <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
-                      <div>
+                      <div className=" space-y-2">
                         <h2 className="text-lg md:text-xl font-bold text-color5">Pool apartment</h2>
                         <h2 className="text-xs md:text-sm text-color5">18 Grattan St, Brookly</h2>
                       </div>
@@ -347,7 +347,7 @@ const HomePage5 = ({ onScroll }) => {
               {/* Carts 01 */}
               <div className="inline-block cursor-pointer lg:w-full">
                 <div className="w-80 md:w-full overflow-hidden duration-300 shadow-lg " >
-                  <div className=" cursor-pointer">
+                  <div className=" md:cursor-pointer">
                     <div className="">
                       <div className="">
                         <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2656.svg" />
@@ -355,7 +355,7 @@ const HomePage5 = ({ onScroll }) => {
                       <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 rounded text-white font-bold bg-color1">$2,8000</div>
                     </div>
                     <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
-                      <div>
+                      <div className=" space-y-2">
                         <h2 className="text-lg md:text-xl font-bold text-color5">Pool apartment</h2>
                         <h2 className="text-xs md:text-sm text-color5">18 Grattan St, Brookly</h2>
                       </div>
@@ -395,7 +395,7 @@ const HomePage5 = ({ onScroll }) => {
               {/* Carts 01 */}
               <div className="inline-block cursor-pointer lg:w-full">
                 <div className="w-80 md:w-full overflow-hidden duration-300 shadow-lg " >
-                  <div className="">
+                  <div className="md:cursor-pointer">
                     <div className="">
                       <div className="">
                         <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2658.svg" />
@@ -403,7 +403,7 @@ const HomePage5 = ({ onScroll }) => {
                       <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 rounded text-white font-bold bg-color1">$2,8000</div>
                     </div>
                     <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
-                      <div>
+                      <div className=" space-y-2">
                         <h2 className="text-lg md:text-xl font-bold text-color5">Pool apartment</h2>
                         <h2 className="text-xs md:text-sm text-color5">18 Grattan St, Brookly</h2>
                       </div>

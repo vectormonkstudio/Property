@@ -780,7 +780,7 @@ const HollidayHouse = ({ onScroll }) => {
                     <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-4">
 
                         {/* cart */}
-                        <div className=" cursor-pointer">
+                        <div className=" md:cursor-pointer">
                             <div className="">
                                 <div className="">
                                     <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2656.svg" />
@@ -791,7 +791,7 @@ const HollidayHouse = ({ onScroll }) => {
                                 </div>
                             </div>
                             <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
-                                <div>
+                                <div className=" space-y-2">
                                     <h2 className="text-lg md:text-xl font-bold text-color5">Pool apartment</h2>
                                     <h2 className="text-xs md:text-sm text-color5">18 Grattan St, Brookly</h2>
                                 </div>
@@ -831,7 +831,7 @@ const HollidayHouse = ({ onScroll }) => {
 
 
                         {/* Carts */}
-                        <div className=" cursor-pointer">
+                        <div className=" md:cursor-pointer">
                             <div className="">
                                 <div className="">
                                     <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2658.svg" />
@@ -842,7 +842,7 @@ const HollidayHouse = ({ onScroll }) => {
                                 </div>
                             </div>
                             <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
-                                <div>
+                                <div className=" space-y-2">
                                     <h2 className="text-lg md:text-xl font-bold text-color5">Pool apartment</h2>
                                     <h2 className="text-xs md:text-sm text-color5">18 Grattan St, Brookly</h2>
                                 </div>
@@ -881,7 +881,7 @@ const HollidayHouse = ({ onScroll }) => {
 
 
                         {/* cart */}
-                        <div className=" cursor-pointer">
+                        <div className=" md:cursor-pointer">
                             <div className="">
                                 <div className="">
                                     <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2657.svg" />
@@ -892,7 +892,7 @@ const HollidayHouse = ({ onScroll }) => {
                                 </div>
                             </div>
                             <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
-                                <div>
+                                <div className=" space-y-2">
                                     <h2 className="text-lg md:text-xl font-bold text-color5">Pool apartment</h2>
                                     <h2 className="text-xs md:text-sm text-color5">18 Grattan St, Brookly</h2>
                                 </div>

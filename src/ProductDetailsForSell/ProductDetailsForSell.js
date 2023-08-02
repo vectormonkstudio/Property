@@ -295,7 +295,7 @@ const ProductDetailsForSell = ({ onScroll }) => {
                         </div>
 
 
-                        {/* Recently Viewed */}
+                        {/* Recently Viewed ads */}
                         <div className=" pt-12">
 
 
@@ -306,12 +306,12 @@ const ProductDetailsForSell = ({ onScroll }) => {
                                     <h2 className=" pb-7 text-lg sm:text-xl xl:text-xl font-bold text-color5">Recently Viewed</h2>
                                     {/* advertisement */}
                                     <div className="">
-                                        <img className="w-full shadow-lg border rounded-lg" src="HomePage5/new/image 17.svg" />
+                                        <img className="w-full shadow-lg border rounded" src="HomePage5/new/image 17.svg" />
                                     </div>
                                 </div>
 
                                 {/* cart */}
-                                <div className=" cursor-pointer">
+                                <div className=" md:cursor-pointer">
                                     <div className="">
                                         <div className="">
                                             <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2681.svg" />
@@ -322,7 +322,7 @@ const ProductDetailsForSell = ({ onScroll }) => {
                                         </div>
                                     </div>
                                     <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
-                                        <div>
+                                        <div className=" space-y-2">
                                             <h2 className="text-lg md:text-xl font-bold text-color5">Pool apartment</h2>
                                             <h2 className="text-xs md:text-sm text-color5">18 Grattan St, Brookly</h2>
                                         </div>
@@ -360,7 +360,7 @@ const ProductDetailsForSell = ({ onScroll }) => {
                                 </div>
 
                                 {/* cart */}
-                                <div className=" cursor-pointer">
+                                <div className=" md:cursor-pointer">
                                     <div className="">
                                         <div className="">
                                             <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2823.svg" />
@@ -371,7 +371,7 @@ const ProductDetailsForSell = ({ onScroll }) => {
                                         </div>
                                     </div>
                                     <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
-                                        <div>
+                                        <div className=" space-y-2">
                                             <h2 className="text-lg md:text-xl font-bold text-color5">Pool apartment</h2>
                                             <h2 className="text-xs md:text-sm text-color5">18 Grattan St, Brookly</h2>
                                         </div>
