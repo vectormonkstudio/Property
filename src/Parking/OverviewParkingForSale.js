@@ -54,7 +54,6 @@ const OverviewParkingForSale = ({ onScroll }) => {
                                     <h2 className="pb-5 text-2xl sm:text-2xl 2xl:text-4xl font-bold text-color1">  €6000</h2>
                                 </div>
                                 <div className="pb-5 sm:pb-10 2xl:pb-16 flex flex-wrap gap-3 xs:gap-4 md:gap-8 xl:gap-10 2xl:gap-16 text-color5">
-                                    
                                     <div className="text-sm flex space-x-1 md:space-x-4 2xl:space-x-6">
                                         <img className=" mr-1 w-3 xs:w-4 md:w-5 2xl:w-6" src="HomePage5/Group 9213.svg" />
                                         <h3 className="text-xs md:text-sm 2xl:text-2xl 2xl:font-normal font-medium my-auto">24 Hour Access</h3>

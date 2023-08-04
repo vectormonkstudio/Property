@@ -1,6 +1,7 @@
+
 import React from "react";
 
-const OverviewParkingForRent = ({ onScroll }) => {
+const OverviewShare = ({ onScroll }) => {
 
     return (
         <div className="pt-32 2xl:pt-36 px-4 xs:px-6 sm:px-8 lg:px-20 2xl:px-28">
@@ -9,7 +10,7 @@ const OverviewParkingForRent = ({ onScroll }) => {
 
                 <div className="2xl:pt-10 w-full h-full md:flex">
                     <div className="w-full h-full md:p-0.5">
-                        <img className="w-full h-full rounded-sm md:rounded" src="HomePage5/new/Rectangle 2681.svg" />
+                        <img className="w-full h-full rounded-sm md:rounded" src="HomePage5/new/Rectangle 2823.svg" />
                     </div>
                     <div className="md:mt-0.5 pt-1 xs:pt-1.5 md:pt-0 w-full md:w-1/3 grid grid-cols-4 md:grid-cols-1 gap-1 xs:gap-1.5 md:gap-0">
                         <div className=" cursor-pointer w-full md:px-1">
@@ -51,20 +52,16 @@ const OverviewParkingForRent = ({ onScroll }) => {
                                         </div>
                                     </div>
                                     {/* price */}
-                                    <h2 className="pb-5 text-2xl sm:text-2xl 2xl:text-4xl font-bold text-color1">  €6000 Per Month</h2>
+                                    <h2 className="pb-5 text-2xl sm:text-2xl 2xl:text-4xl font-bold text-color1">  €6000 Per Week</h2>
                                 </div>
                                 <div className="pb-5 sm:pb-10 2xl:pb-16 flex flex-wrap gap-3 xs:gap-4 md:gap-8 xl:gap-10 2xl:gap-16 text-color5">
                                     <div className="text-sm flex space-x-1 md:space-x-4 2xl:space-x-6">
-                                        <img className=" mr-1 w-3 xs:w-4 md:w-5 2xl:w-6" src="HomePage5/Group 9213.svg" />
-                                        <h3 className="text-xs md:text-sm 2xl:text-2xl 2xl:font-normal font-medium my-auto">24 Hour Access</h3>
-                                    </div>
-                                    <div className="text-sm flex space-x-1 md:space-x-4 2xl:space-x-6">
-                                        <img className=" mr-1 w-3 xs:w-4 md:w-6 2xl:w-7" src="HomePage5/car.svg" />
-                                        <h3 className="text-xs md:text-sm 2xl:text-2xl 2xl:font-normal font-medium my-auto">1 Parking Space</h3>
+                                        <img className=" mr-1 w-4 xs:w-5 md:w-6 2xl:w-8" src="HomePage5/Vector.svg" />
+                                        <h3 className="text-xs md:text-sm 2xl:text-2xl 2xl:font-normal font-medium my-auto">Double Room</h3>
                                     </div>
                                     <div className="text-sm flex space-x-1 md:space-x-4 2xl:space-x-6">
                                         <img className=" mr-1 w-3 xs:w-4 md:w-6 2xl:w-7" src="HomePage5/Group 10383.svg" />
-                                        <h3 className="text-xs md:text-sm 2xl:text-2xl 2xl:font-normal font-medium my-auto">Parking For Rent</h3>
+                                        <h3 className="text-xs md:text-sm 2xl:text-2xl 2xl:font-normal font-medium my-auto">House For Share </h3>
                                     </div>
                                 </div>
                             </div>
@@ -79,27 +76,45 @@ const OverviewParkingForRent = ({ onScroll }) => {
 
                                     <div className="space-y-5 sm:w-1/2">
                                         <div className="w-full flex ">
-                                            <h3 className="w-1/2 sm:w-52 font-medium">Access :</h3>
-                                            <h3 className="w-1/2 sm:w-52">24 Hour</h3>
+                                            <h3 className="w-1/2 sm:w-52 font-medium">Room Type :</h3>
+                                            <h3 className="w-1/2 sm:w-52">Double Room</h3>
+                                        </div>
+                                        <div className="w-full flex ">
+                                            <h3 className="w-1/2 sm:w-52 font-medium">Available Bed room :</h3>
+                                            <h3 className="w-1/2 sm:w-52">1</h3>
+                                        </div>
+                                        <div className="w-full flex ">
+                                            <h3 className="w-1/2 sm:w-52 font-medium">Available from :</h3>
+                                            <h3 className="w-1/2 sm:w-52">24 janu 2024</h3>
+                                        </div>
+                                        <div className="w-full flex ">
+                                            <h3 className="w-1/2 sm:w-52 font-medium">Preferences :</h3>
+                                            <h3 className="w-1/2 sm:w-52">Male/ Female</h3>
                                         </div>
 
-                                        <div className="w-full flex">
-                                            <h3 className="w-1/2 sm:w-52 font-medium">Spaces Available :</h3>
-                                            <h3 className="w-1/2 sm:w-52">4 Spaces</h3>
-                                        </div>
-
-                                        <div className="w-full flex">
-                                            <h3 className="w-1/2 sm:w-52 font-medium">Unit Price :</h3>
-                                            <h3 className="w-1/2 sm:w-52">€6000 Per Month</h3>
-                                        </div>
-
-                                        <div className="w-full flex">
-                                            <h3 className="w-1/2 sm:w-52 font-medium">Property type :</h3>
-                                            <h3 className="w-1/2 sm:w-52">Parking for lease</h3>
-                                        </div>
+                                        
                                     </div>
 
+                                    <div className="space-y-5 sm:w-1/2">
+                                        <div className="w-full flex">
+                                            <h3 className="w-1/2 sm:w-52 font-medium">Available for :</h3>
+                                            <h3 className="w-1/2 sm:w-52">9 Month</h3>
+                                        </div>
+                                        <div className="w-full flex">
+                                            <h3 className="w-1/2 sm:w-52 font-medium">Unit Price :</h3>
+                                            <h3 className="w-1/2 sm:w-52">€1500 Per Week</h3>
+                                        </div>
+                                        <div className="w-full flex">
+                                            <h3 className="w-1/2 sm:w-52 font-medium">tenants sharing :</h3>
+                                            <h3 className="w-1/2 sm:w-52">2 Tenants</h3>
+                                        </div>
+                                        <div className="w-full flex">
+                                            <h3 className="w-1/2 sm:w-52 font-medium">Property type :</h3>
+                                            <h3 className="w-1/2 sm:w-52">House For Share</h3>
+                                        </div>
 
+                                      
+                                    </div>
 
 
 
@@ -150,11 +165,109 @@ const OverviewParkingForRent = ({ onScroll }) => {
 
                         <div className="md:border md:rounded-lg md:shadow-lg">
 
+                            {/* Facts and Features */}
+                            <div className=" pt-8 pb-8 sm:pb-10 sm:px-8 2xl:px-12  border-t border-color5 border-opacity-20">
+                                <h2 className="pt-4 2xl:pt-16  pb-7 2xl:pb-12 text-lg sm:text-xl xl:text-2xl font-bold text-color5">Facts and Features</h2>
+                                <div className=" space-y-5 sm:space-y-0 text-sm md:text-base 2xl:text-xl text-color5  sm:flex ">
+                                    <div className="space-y-5 sm:w-1/2 2xl:w-1/3">
 
+                                        <div className="flex">
+                                            <img className="md:hidden" src="HomePage5/Group 9812.svg" />
+                                            <img className="hidden md:block w-5 2xl:w-max" src="HomePage5/Group 10127.svg" />
+                                            <span className="text-sm md:text-base 2xl:text-lg font-medium my-auto ml-6">Garage</span>
+                                        </div>
+
+                                        <div className="flex">
+                                            <img className="md:hidden" src="HomePage5/Group 9812.svg" />
+                                            <img className="hidden md:block w-5 2xl:w-max" src="HomePage5/Group 10127.svg" />
+                                            <span className="text-sm md:text-base 2xl:text-lg font-medium my-auto ml-6">Cable TV</span>
+                                        </div>
+
+                                        <div className="flex">
+                                            <img className="md:hidden" src="HomePage5/Group 9812.svg" />
+                                            <img className="hidden md:block w-5 2xl:w-max" src="HomePage5/Group 10127.svg" />
+                                            <span className="text-sm md:text-base 2xl:text-lg font-medium my-auto ml-6">Tumble Dryer</span>
+                                        </div>
+
+                                        <div className="flex">
+                                            <img className="md:hidden" src="HomePage5/Group 9812.svg" />
+                                            <img className="hidden md:block w-5 2xl:w-max" src="HomePage5/Group 10127.svg" />
+                                            <span className="text-sm md:text-base 2xl:text-lg font-medium my-auto ml-6">Dishwasher</span>
+                                        </div>
+
+                                        <div className="flex">
+                                            <img className="md:hidden" src="HomePage5/Group 9812.svg" />
+                                            <img className="hidden md:block w-5 2xl:w-max" src="HomePage5/Group 10127.svg" />
+                                            <span className="text-sm md:text-base 2xl:text-lg font-medium my-auto ml-6">Heating</span>
+                                        </div>
+
+                                        <div className="flex">
+                                            <img className="md:hidden" src="HomePage5/Group 9812.svg" />
+                                            <img className="hidden md:block w-5 2xl:w-max" src="HomePage5/Group 10127.svg" />
+                                            <span className="text-sm md:text-base 2xl:text-lg font-medium my-auto ml-6">Microwave</span>
+                                        </div>
+
+                                        <div className="flex">
+                                            <img className="md:hidden" src="HomePage5/Group 9812.svg" />
+                                            <img className="hidden md:block w-5 2xl:w-max" src="HomePage5/Group 10127.svg" />
+                                            <span className="text-sm md:text-base 2xl:text-lg font-medium my-auto ml-6">Pets Allowed</span>
+                                        </div>
+
+
+                                    </div>
+
+
+                                    <div className="space-y-5 sm:w-1/2">
+
+                                        <div className="flex">
+                                            <img className="md:hidden" src="HomePage5/Group 9812.svg" />
+                                            <img className="hidden md:block w-5 2xl:w-max" src="HomePage5/Group 10127.svg" />
+                                            <span className="text-sm md:text-base 2xl:text-lg font-medium my-auto ml-6">Alarm</span>
+                                        </div>
+
+                                        <div className="flex">
+                                            <img className="md:hidden" src="HomePage5/Group 9812.svg" />
+                                            <img className="hidden md:block w-5 2xl:w-max" src="HomePage5/Group 10127.svg" />
+                                            <span className="text-sm md:text-base 2xl:text-lg font-medium my-auto ml-6">Wheelchair Access</span>
+                                        </div>
+
+                                        <div className="flex">
+                                            <img className="md:hidden" src="HomePage5/Group 9812.svg" />
+                                            <img className="hidden md:block w-5 2xl:w-max" src="HomePage5/Group 10127.svg" />
+                                            <span className="text-sm md:text-base 2xl:text-lg font-medium my-auto ml-6">Garden/Patio/Balcony</span>
+                                        </div>
+
+                                        <div className="flex">
+                                            <img className="md:hidden" src="HomePage5/Group 9812.svg" />
+                                            <img className="hidden md:block w-5 2xl:w-max" src="HomePage5/Group 10127.svg" />
+                                            <span className="text-sm md:text-base 2xl:text-lg font-medium my-auto ml-6">Internet</span>
+                                        </div>
+
+                                        <div className="flex">
+                                            <img className="md:hidden" src="HomePage5/Group 9812.svg" />
+                                            <img className="hidden md:block w-5 2xl:w-max" src="HomePage5/Group 10127.svg" />
+                                            <span className="text-sm md:text-base 2xl:text-lg font-medium my-auto ml-6">Serviced Property</span>
+                                        </div>
+
+                                        <div className="flex">
+                                            <img className="md:hidden" src="HomePage5/Group 9812.svg" />
+                                            <img className="hidden md:block w-5 2xl:w-max" src="HomePage5/Group 10127.svg" />
+                                            <span className="text-sm md:text-base 2xl:text-lg font-medium my-auto ml-6">Smoking</span>
+                                        </div>
+
+                                        <div className="flex">
+                                            <img className="md:hidden" src="HomePage5/Group 9812.svg" />
+                                            <img className="hidden md:block w-5 2xl:w-max" src="HomePage5/Group 10127.svg" />
+                                            <span className="text-sm md:text-base 2xl:text-lg font-medium my-auto ml-6">Washing Machine</span>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
 
 
                             {/* BER Details */}
-                            <div className="pt-8 pb-8 sm:pb-10 sm:px-8 2xl:px-12 border-t border-color5 border-opacity-20">
+                            <div className="pt-8 pb-8 sm:pb-10 sm:px-8 2xl:px-12 ">
                                 <h2 className="pt-4 2xl:pt-16  pb-7 2xl:pb-12 text-lg sm:text-xl xl:text-2xl font-bold text-color5">BER Details</h2>
                                 <div>
                                     <img src="HomePage5/new/image 19.svg" />
@@ -201,8 +314,8 @@ const OverviewParkingForRent = ({ onScroll }) => {
                     <div className="sm:hidden lg:block  md:w-1/4 lg:w-1/4 ">
 
 
-                        {/* profile */}
-                        <div className="shadow-xl rounded-lg bg-color5">
+                       {/* profile */}
+                       <div className="shadow-xl rounded-lg bg-color5">
                             <h2 className="text-white text-lg xl:text-xl font-bold  py-3 px-4 xs:px-6 xl:py-6 2xl:px-7 border-b border-gray-500" >Posted By</h2>
                             <div className="py-4 2xl:pt-9 2xl:pb-5 text-center ">
                                 <img className=" w-20 h-20 xl:w-28 xl:h-28 2xl:w-32 2xl:h-32 object-cover rounded-full mx-auto" src="Header/Group 9577.svg" />
@@ -368,4 +481,4 @@ const OverviewParkingForRent = ({ onScroll }) => {
     )
 }
 
-export default OverviewParkingForRent;
+export default OverviewShare;

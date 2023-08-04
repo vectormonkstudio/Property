@@ -6,8 +6,6 @@ import SignUp from "./SignUp/SignUp";
 import HomePage5 from "./HomePage5/HomePage5";
 import Buy from "./Buy/Buy";
 import Rent from "./Rent/Rent";
-import Share1 from "./Share1/Share1";
-import Share2 from "./Share2/Share2";
 import ProductDetailsForSell from "./ProductDetailsForSell/ProductDetailsForSell";
 import AddNewProperty from "./AddNewProperty/AddNewProperty";
 import AddNewProperty2 from "./AddNewProperty2/AddNewProperty2";
@@ -41,6 +39,8 @@ import OverviewCommercialSale from "./Commercial/OverviewCommercialSale";
 import OverviewCommercialLease from "./Commercial/OverviewCommercialLease";
 import OverviewParkingForSale from "./Parking/OverviewParkingForSale";
 import OverviewParkingForRent from "./Parking/OverviewParkingForRent";
+import OverviewHollidayHouse from "./HollidayHouse/OverviewHollidayHouse";
+import OverviewShare from "./OverviewShare/OverviewShare";
 
 function App() {
   const [scrollToContent, contentRef] = useScroll()
@@ -55,8 +55,6 @@ function App() {
           <Route path="/signup" element={<SignUp />} />
           <Route path="/buy" element={<Buy />} />
           <Route path="/rent" element={<Rent />} />
-          <Route path="/share1" element={<Share1 />} />
-          {/* <Route path="/share2" element={<Share2 />} /> */}
          
           <Route path="/student_accommodation" element={<StudentAccommodation />} />
           <Route path="/commercial_lease" element={<CommercialLease />} />
@@ -71,6 +69,8 @@ function App() {
           <Route path="/overview_commercial_lease" element={<OverviewCommercialLease />} />
           <Route path="/overview_parking_for_sale" element={<OverviewParkingForSale />} />
           <Route path="/overview_parking_for_rent" element={<OverviewParkingForRent />} />
+          <Route path="/overview_holliday_house" element={<OverviewHollidayHouse />} />
+          <Route path="/overview_share" element={<OverviewShare />} />
 
 
           <Route path="/my_ads" element={<MyAds />} />
@@ -107,16 +107,19 @@ function App() {
       {/* <SignUp/> */}
       {/* <Buy/> */}
       {/* <Rent/> */}
-      {/* <Share1/> */}
-      {/* <Share2/> */}
+
       {/* <ProductDetailsForSell /> */}
       {/* <ProductDetailsForRent/> */}
       {/* <OverviewCommercialSale/> */}
       {/* <OverviewCommercialRent/> */}
       {/* <OverviewParkingForSale/> */}
       {/* <OverviewParkingForRent/> */}
+      {/* <OverviewHollidayHouse/> */}
+      {/* <OverviewShare/> */}
+
       {/* <AddNewProperty /> */}
       {/* <AddNewProperty2/> */}
+
       {/* <Introduction/> */}
       {/* <SubCategories/> */}
       {/* <StudentAccommodation /> */}
