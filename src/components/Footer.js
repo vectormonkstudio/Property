@@ -18,16 +18,18 @@ const Footer = () => {
 
       <div className="md:flex w-full ">
 
-        <div className="px-4 xs:px-6 sm:px-8 md:px-0 w-full xl:w-max space-y-4 sm:pr-4 xl:pr-20 2xl:pr-32 xl:border-r border-gray-300 pb-5">
-          <h3 className="text-sm font-bold sm:text-left text-color14">JOIN OUR MAILING LIST</h3>
-          <div className="flex justify-center sm:justify-start">
-            <input className="w-full sm:w-1/2 md:w-9/12 xl:w-64 2xl:w-80 outline-none px-4 py-2.5 md:py-2.5 xl:py-3 text-sm border border-color5 border-opacity-30 rounded-sm sm:rounded" placeholder="Name" />
+        <div className="my-auto h-full px-4 xs:px-6 sm:px-8 md:px-0 w-full xl:w-max  sm:pr-4 xl:pr-20 2xl:pr-32 pb-5">
+          <div className="space-y-4 flex flex-col w-full">
+            <div>
+              <img src="Header/logo2.svg" />
+            </div>
+            <div className="flex space-x-4 justify-center">
+              <img src="Header/facebook.svg" />
+              <img src="Header/instagram.svg" />
+              <img src="Header/Group (2).svg" />
+              <img src="Header/twitter.svg" />
+            </div>
           </div>
-          <div className="flex justify-center sm:justify-start">
-            <input className="w-full sm:w-1/2 md:w-9/12 xl:w-64 2xl:w-80 outline-none px-4 py-2.5 md:py-2.5 xl:py-3 text-sm border border-color5 border-opacity-30 rounded-sm sm:rounded" placeholder="Password" type={"password"} />
-          </div>
-
-          <button className="w-full sm:w-max sm:text-sm xl:text-base text-white py-2 xl:py-2 px-14 font-bold rounded-sm bg-color13 hover:bg-white hover:text-color13 hover:shadow-md outline-none focus:outline-none"> Send</button>
         </div>
 
 
@@ -38,7 +40,7 @@ const Footer = () => {
 
 
         {/* Mobile */}
-        <div className="xl:hidden w-full">
+        <div className="xl:hidden w-full ">
 
           {/* OUR LOCATIONS */}
           <div>
@@ -172,7 +174,7 @@ const Footer = () => {
 
 
         {/* tab and desktop */}
-        <div className="hidden px-4 sm:px-0 py-4 xl:block w-full">
+        <div className="hidden px-4 sm:px-0 py-4 xl:block w-full border-l border-color9">
 
           <div className=" flex justify-between pl-10 2xl:pl-52">
 

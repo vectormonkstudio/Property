@@ -129,7 +129,7 @@ const Expired = ({ onScroll }) => {
                                     <div className="">
                                         <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2681.svg" />
                                     </div>
-                                    <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-bold bg-color1">
+                                    <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-medium bg-color1">
                                         <span className="2xl:text-xl">€1,550</span>
                                         <span className="text-xs ml-1"></span>
                                     </div>
@@ -178,7 +178,7 @@ const Expired = ({ onScroll }) => {
                                     <div className="">
                                         <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2685.svg" />
                                     </div>
-                                    <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-bold bg-color1">
+                                    <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-medium bg-color1">
                                         <span className="2xl:text-xl">€1,550</span>
                                         <span className="text-xs ml-1"></span>
                                     </div>
@@ -241,7 +241,7 @@ const Expired = ({ onScroll }) => {
                                     <div className="">
                                         <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2681.svg" />
                                     </div>
-                                    <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-bold bg-color1">
+                                    <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-medium bg-color1">
                                         <span className="2xl:text-xl">€1,550</span>
                                         <span className="text-xs ml-1"></span>
                                     </div>
@@ -290,7 +290,7 @@ const Expired = ({ onScroll }) => {
                                     <div className="">
                                         <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2685.svg" />
                                     </div>
-                                    <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-bold bg-color1">
+                                    <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-medium bg-color1">
                                         <span className="2xl:text-xl">€1,550</span>
                                         <span className="text-xs ml-1"></span>
                                     </div>

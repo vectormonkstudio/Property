@@ -848,7 +848,7 @@ const Buy = ({ onScroll }) => {
                                 <div className="">
                                     <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2658.svg" />
                                 </div>
-                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-bold bg-color1">
+                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-medium bg-color1">
                                     <span className="2xl:text-xl">€1,550</span>
                                     <span className="text-xs ml-1"></span>
                                 </div>
@@ -856,7 +856,7 @@ const Buy = ({ onScroll }) => {
                             <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
                                 <div className=" space-y-2">
                                     <h2 className="text-lg md:text-xl font-bold text-color5">Pool apartment</h2>
-                                    <h2 className="text-xs md:text-sm text-color5">18 Grattan St, Brookly</h2>
+                                    <h2 className="text-xs md:text-sm text-color5">Blessington Street, Phibsborough, Dublin 7</h2>
                                 </div>
                                 <div className="flex flex-wrap gap-3 xs:gap-4 text-color5">
                                     <div className="text-sm flex space-x-1">
@@ -898,7 +898,7 @@ const Buy = ({ onScroll }) => {
                                 <div className="">
                                     <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2657.svg" />
                                 </div>
-                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-bold bg-color1">
+                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-medium bg-color1">
                                     <span className="2xl:text-xl">€1,550</span>
                                     <span className="text-xs ml-1"></span>
                                 </div>
@@ -906,7 +906,7 @@ const Buy = ({ onScroll }) => {
                             <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
                                 <div className=" space-y-2">
                                     <h2 className="text-lg md:text-xl font-bold text-color5">Pool apartment</h2>
-                                    <h2 className="text-xs md:text-sm text-color5">18 Grattan St, Brookly</h2>
+                                    <h2 className="text-xs md:text-sm text-color5">13 Clontarf Road, Dublin 3, Fairview, Dublin 3</h2>
                                 </div>
                                 <div className="flex flex-wrap gap-3 xs:gap-4 text-color5">
                                     <div className="text-sm flex space-x-1">
@@ -948,7 +948,7 @@ const Buy = ({ onScroll }) => {
                                 <div className="">
                                     <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2656.svg" />
                                 </div>
-                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-bold bg-color1">
+                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-medium bg-color1">
                                     <span className="2xl:text-xl">€1,550</span>
                                     <span className="text-xs ml-1"></span>
                                 </div>
@@ -956,7 +956,7 @@ const Buy = ({ onScroll }) => {
                             <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
                                 <div className=" space-y-2">
                                     <h2 className="text-lg md:text-xl font-bold text-color5">Pool apartment</h2>
-                                    <h2 className="text-xs md:text-sm text-color5">18 Grattan St, Brookly</h2>
+                                    <h2 className="text-xs md:text-sm text-color5">St Edmunds Avenue , Lucan, Co. Dublin</h2>
                                 </div>
                                 <div className="flex flex-wrap gap-3 xs:gap-4 text-color5">
                                     <div className="text-sm flex space-x-1">

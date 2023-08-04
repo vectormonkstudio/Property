@@ -33,7 +33,7 @@ const Rent = ({ onScroll }) => {
                         </div>
                     </div>
                 </div>
-                <h3 className=" py-4  md:text-left md:pb-10 md:text-xl lg:text-2xl font-bold text-color5 ">2,857 Properties for Sale in Dublin City</h3>
+                <h3 className=" py-4  md:text-left md:pb-10 md:text-xl lg:text-2xl font-bold text-color5 ">2,857 Properties for Rent in Dublin City</h3>
             </div>
 
 
@@ -718,7 +718,7 @@ const Rent = ({ onScroll }) => {
                             </div>
                         </div>
                     </div>
-                    <h3 className=" py-4  md:text-left md:pb-10 md:text-xl lg:text-2xl font-bold text-color5 ">2,857 Properties for Sale in Dublin City</h3>
+                    <h3 className=" py-4  md:text-left md:pb-10 md:text-xl lg:text-2xl font-bold text-color5 ">2,857 Properties for Rent in Dublin City</h3>
                 </div>
 
 
@@ -736,15 +736,15 @@ const Rent = ({ onScroll }) => {
                                 <div className="">
                                     <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2656.svg" />
                                 </div>
-                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-bold bg-color1">
+                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-medium bg-color1">
                                     <span className="2xl:text-xl">€1,550</span>
                                     <span className="text-xs ml-1">Per Month</span>
                                 </div>
                             </div>
                             <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
                                 <div className=" space-y-2">
-                                    <h2 className="text-lg md:text-xl font-bold text-color5">Pool apartment</h2>
-                                    <h2 className="text-xs md:text-sm text-color5">18 Grattan St, Brookly</h2>
+                                    <h2 className="text-lg md:text-xl font-bold text-color5">Exceptional Living Experience </h2>
+                                    <h2 className="text-xs md:text-sm text-color5">Blessington Street, Phibsborough, Dublin 7</h2>
                                 </div>
                                 <div className="flex flex-wrap gap-3 xs:gap-4 text-color5">
                                     <div className="text-sm flex space-x-1">
@@ -787,15 +787,15 @@ const Rent = ({ onScroll }) => {
                                 <div className="">
                                     <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2658.svg" />
                                 </div>
-                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-bold bg-color1">
+                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-medium bg-color1">
                                     <span className="2xl:text-xl">€1,550</span>
                                     <span className="text-xs ml-1">Per Month</span>
                                 </div>
                             </div>
                             <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
                                 <div className=" space-y-2">
-                                    <h2 className="text-lg md:text-xl font-bold text-color5">Pool apartment</h2>
-                                    <h2 className="text-xs md:text-sm text-color5">18 Grattan St, Brookly</h2>
+                                    <h2 className="text-lg md:text-xl font-bold text-color5">New Development</h2>
+                                    <h2 className="text-xs md:text-sm text-color5">13 Clontarf Road, Dublin 3, Fairview, Dublin 3</h2>
                                 </div>
                                 <div className="flex flex-wrap gap-3 xs:gap-4 text-color5">
                                     <div className="text-sm flex space-x-1">
@@ -837,15 +837,15 @@ const Rent = ({ onScroll }) => {
                                 <div className="">
                                     <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2657.svg" />
                                 </div>
-                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-bold bg-color1">
+                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-medium bg-color1">
                                     <span className="2xl:text-xl">€1,550</span>
                                     <span className="text-xs ml-1">Per Month</span>
                                 </div>
                             </div>
                             <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
                                 <div className=" space-y-2">
-                                    <h2 className="text-lg md:text-xl font-bold text-color5">Pool apartment</h2>
-                                    <h2 className="text-xs md:text-sm text-color5">18 Grattan St, Brookly</h2>
+                                    <h2 className="text-lg md:text-xl font-bold text-color5">New Development</h2>
+                                    <h2 className="text-xs md:text-sm text-color5">The newest face of renting in Dublin</h2>
                                 </div>
                                 <div className="flex flex-wrap gap-3 xs:gap-4 text-color5">
                                     <div className="text-sm flex space-x-1">
@@ -862,7 +862,7 @@ const Rent = ({ onScroll }) => {
                                     </div>
                                     <div className="text-sm flex space-x-1">
                                         <img className=" mr-1 w-3 xs:w-4 " src="HomePage5/Group 10383.svg" />
-                                        <h3 className="text-xs my-auto">Townhouse</h3>
+                                        <h3 className="text-xs my-auto">Apartment</h3>
                                     </div>
                                 </div>
                                 <div className=" flex justify-between py-2 border-t border-color5 border-opacity-30">

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Commercial = ({ onScroll }) => {
+const CommercialSale = ({ onScroll }) => {
     const [filter, setFilter] = useState(false);
 
     const [sizemin, setSizemin] = useState(false);
@@ -30,7 +30,7 @@ const Commercial = ({ onScroll }) => {
                         </div>
                     </div>
                 </div>
-                <h3 className=" py-4  md:text-left md:pb-10 md:text-xl lg:text-2xl font-bold text-color5 ">4,301 Commercial Properties To Lease in Ireland</h3>
+                <h3 className=" py-4  md:text-left md:pb-10 md:text-xl lg:text-2xl font-bold text-color5 ">4,301 Commercial Properties for Sale in Ireland</h3>
             </div>
 
 
@@ -568,7 +568,7 @@ const Commercial = ({ onScroll }) => {
 
                 {/* for mobile ==> search */}
                 <div className="pt-5 md:hidden">
-                    <h3 className="sm:hidden pb-5 md:text-xl lg:text-2xl font-bold text-color5 ">Property for Sale</h3>
+                    <h3 className="sm:hidden pb-5 md:text-xl lg:text-2xl font-bold text-color5 ">Property for Commercial</h3>
                     {/* search */}
                     <div className="sm:flex sm:justify-end">
                         <div className="my-auto sm:w-1/2 md:w-2/5 2xl:w-1/3">
@@ -578,7 +578,7 @@ const Commercial = ({ onScroll }) => {
                             </div>
                         </div>
                     </div>
-                    <h3 className=" py-4  md:text-left md:pb-10 md:text-xl lg:text-2xl font-bold text-color5 ">4,301 Commercial Properties To Lease in Ireland</h3>
+                    <h3 className=" py-4  md:text-left md:pb-10 md:text-xl lg:text-2xl font-bold text-color5 ">4,301 Commercial Properties for Sale in Ireland</h3>
                 </div>
 
 
@@ -601,14 +601,15 @@ const Commercial = ({ onScroll }) => {
                                 <div className="">
                                     <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/new/Rectangle 2657.svg" />
                                 </div>
-                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-bold bg-color1">
+                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-medium bg-color1">
                                     <span className="2xl:text-xl">€1,550</span>
-                                    <span className="text-xs ml-1">Per Month</span>
-                                </div>                            </div>
+                                    <span className="text-xs ml-1"></span>
+                                </div>                   
+                                         </div>
                             <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
                                 <div className=" space-y-2">
-                                    <h2 className="text-lg md:text-xl font-bold text-color5">Pool apartment</h2>
-                                    <h2 className="text-xs md:text-sm text-color5">18 Grattan St, Brookly</h2>
+                                    <h2 className="text-lg md:text-xl font-bold text-color5">Agricultural Land</h2>
+                                    <h2 className="text-xs md:text-sm text-color5">Blessington Street, Phibsborough, Dublin 7</h2>
                                 </div>
                                 <div className="flex flex-wrap gap-3 xs:gap-4 text-color5">
                                     <div className="text-sm flex space-x-1">
@@ -642,14 +643,15 @@ const Commercial = ({ onScroll }) => {
                                 <div className="">
                                     <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/new/Rectangle 2657 (1).svg" />
                                 </div>
-                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-bold bg-color1">
+                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-medium bg-color1">
                                     <span className="2xl:text-xl">€1,550</span>
-                                    <span className="text-xs ml-1">Per Month</span>
-                                </div>                            </div>
+                                    <span className="text-xs ml-1"></span>
+                                </div>                         
+                                   </div>
                             <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
                                 <div className=" space-y-2">
-                                    <h2 className="text-lg md:text-xl font-bold text-color5">Pool apartment</h2>
-                                    <h2 className="text-xs md:text-sm text-color5">18 Grattan St, Brookly</h2>
+                                    <h2 className="text-lg md:text-xl font-bold text-color5">Retail Unit</h2>
+                                    <h2 className="text-xs md:text-sm text-color5">13 Clontarf Road, Dublin 3, Fairview, Dublin 3</h2>
                                 </div>
                                 <div className="flex flex-wrap gap-3 xs:gap-4 text-color5">
                                     <div className="text-sm flex space-x-1">
@@ -658,7 +660,7 @@ const Commercial = ({ onScroll }) => {
                                     </div>
                                     <div className="text-sm flex space-x-1">
                                         <img className=" mr-1 w-3 xs:w-4 " src="HomePage5/Group 10383.svg" />
-                                        <h3 className="text-xs my-auto">Agricultural Land</h3>
+                                        <h3 className="text-xs my-auto">Retail Unit</h3>
                                     </div>
                                 </div>
                                 <div className=" flex justify-between py-2 border-t border-color5 border-opacity-30">
@@ -683,14 +685,15 @@ const Commercial = ({ onScroll }) => {
                                 <div className="">
                                     <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/new/Rectangle 2685.svg" />
                                 </div>
-                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-bold bg-color1">
+                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-medium bg-color1">
                                     <span className="2xl:text-xl">€1,550</span>
-                                    <span className="text-xs ml-1">Per Month</span>
-                                </div>                            </div>
+                                    <span className="text-xs ml-1"></span>
+                                </div>                           
+                                 </div>
                             <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
                                 <div className=" space-y-2">
                                     <h2 className="text-lg md:text-xl font-bold text-color5">Pool apartment</h2>
-                                    <h2 className="text-xs md:text-sm text-color5">18 Grattan St, Brookly</h2>
+                                    <h2 className="text-xs md:text-sm text-color5">St Edmunds Avenue , Lucan, Co. Dublin</h2>
                                 </div>
                                 <div className="flex flex-wrap gap-3 xs:gap-4 text-color5">
                                     <div className="text-sm flex space-x-1">
@@ -699,7 +702,7 @@ const Commercial = ({ onScroll }) => {
                                     </div>
                                     <div className="text-sm flex space-x-1">
                                         <img className=" mr-1 w-3 xs:w-4 " src="HomePage5/Group 10383.svg" />
-                                        <h3 className="text-xs my-auto">Agricultural Land</h3>
+                                        <h3 className="text-xs my-auto">Office Space</h3>
                                     </div>
                                 </div>
                                 <div className=" flex justify-between py-2 border-t border-color5 border-opacity-30">
@@ -739,4 +742,4 @@ const Commercial = ({ onScroll }) => {
     )
 }
 
-export default Commercial;
+export default CommercialSale;

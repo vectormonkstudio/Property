@@ -164,7 +164,7 @@ const ProductDetailsForRent = ({ onScroll }) => {
                         <div className="md:border md:rounded-lg md:shadow-lg">
 
                             {/* Facts and Features */}
-                            <div className=" pt-8 pb-8 sm:pb-10 sm:px-8 2xl:px-12  ">
+                            <div className=" pt-8 pb-8 sm:pb-10 sm:px-8 2xl:px-12  border-t border-color5 border-opacity-20">
                                 <h2 className="pt-4 2xl:pt-16  pb-7 2xl:pb-12 text-lg sm:text-xl xl:text-2xl font-bold text-color5">Facts and Features</h2>
                                 <div className=" space-y-5 sm:space-y-0 text-sm md:text-base 2xl:text-xl text-color5  sm:flex ">
                                     <div className="space-y-5 sm:w-1/2 2xl:w-1/3">
@@ -265,7 +265,7 @@ const ProductDetailsForRent = ({ onScroll }) => {
 
 
                             {/* BER Details */}
-                            <div className="pt-8 pb-8 sm:pb-10 sm:px-8 2xl:px-12 border-t border-color5 border-opacity-20">
+                            <div className="pt-8 pb-8 sm:pb-10 sm:px-8 2xl:px-12 ">
                                 <h2 className="pt-4 2xl:pt-16  pb-7 2xl:pb-12 text-lg sm:text-xl xl:text-2xl font-bold text-color5">BER Details</h2>
                                 <div>
                                     <img src="HomePage5/new/image 19.svg" />
@@ -312,8 +312,8 @@ const ProductDetailsForRent = ({ onScroll }) => {
                     <div className="sm:hidden lg:block  md:w-1/4 lg:w-1/4 ">
 
 
-                        {/* profile */}
-                        <div className="shadow-xl rounded-lg bg-color5">
+                       {/* profile */}
+                       <div className="shadow-xl rounded-lg bg-color5">
                             <h2 className="text-white text-lg xl:text-xl font-bold  py-3 px-4 xs:px-6 xl:py-6 2xl:px-7 border-b border-gray-500" >Posted By</h2>
                             <div className="py-4 2xl:pt-9 2xl:pb-5 text-center ">
                                 <img className=" w-20 h-20 xl:w-28 xl:h-28 2xl:w-32 2xl:h-32 object-cover rounded-full mx-auto" src="Header/Group 9577.svg" />
@@ -326,29 +326,22 @@ const ProductDetailsForRent = ({ onScroll }) => {
                                 </div>
                             </div>
                             <div className=" border-t border-gray-500">
-                                <h2 className="text-white text-lg xl:text-xl font-bold  py-3 px-4 xs:px-6 xl:py-6 2xl:px-7" >Contact info</h2>
+                                <h2 className="text-white text-lg xl:text-xl font-medium  py-3 px-4 xs:px-4 xl:py-6 2xl:px-7" >Message To owner </h2>
                                 <div className=" space-y-2 pb-4 px-4 2xl:px-7">
-                                    <button className="w-full py-2.5 xs:py-2 2xl:py-2.5 px-4 md:px-0 text-white text-sm xs:text-base md:text-xs lg:text-sm 2xl:text-lg font-medium bg-color1 hover:bg-white hover:text-color1 hover:shadow-md  rounded outline-none focus:outline-none">Request For Phone Number</button>
-                                    <button className="w-full py-2.5 xs:py-2 2xl:py-2.5 px-4 md:px-0 text-white text-sm xs:text-base md:text-xs lg:text-sm 2xl:text-lg font-medium bg-color1 hover:bg-white hover:text-color1 hover:shadow-md  rounded outline-none focus:outline-none">Request For Email</button>
-                                    <button className="w-full py-2.5 xs:py-2 2xl:py-2.5 px-4 md:px-0 text-white text-sm xs:text-base md:text-xs lg:text-sm 2xl:text-lg font-medium bg-color4 hover:bg-white hover:text-color4 hover:shadow-md  rounded outline-none focus:outline-none">Visit Showroom</button>
+                                    <div>
+                                        <textarea className=" w-full h-32 text-color5 py-1.5 px-4 text-sm outline-none focus:outline-none rounded" placeholder="Your Message"></textarea>
+                                        <div class="flex items-start pt-2 pb-10 2xl:pb-14">
+                                            <div class="flex items-center h-5">
+                                                <input id="remember" aria-describedby="remember" type="checkbox" class="w-5 h-5 md:w-4 md:h-4 bg-color5 checked:bg-color1  " required="" />
+                                            </div>
+                                            <div class="ml-2 2xl:ml-3 mt-0.5 2xl:mt-0 text-xs 2xl:text-sm">
+                                                <label for="remember" class=" text-white text-opacity-70 dark:text-gray-300 my-auto">I Accept The Privacy policy</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button className="w-full py-2.5 xs:py-2 2xl:py-2.5 px-4 md:px-0 text-white text-sm xs:text-base md:text-xs lg:text-sm 2xl:text-lg font-medium bg-color4 hover:bg-white hover:text-color4 hover:shadow-md  rounded outline-none focus:outline-none">Send Message</button>
                                 </div>
-                                <div className="flex justify-center pl-4 pr-6 2xl:px-7 py-5 space-x-2 border-t border-gray-500 ">
 
-                                    <button className="w-full flex justify-center space-x-1 py-2.5 xs:py-2 2xl:py-2.5 px-4 md:px-0 text-white text-sm xs:text-base md:text-xs lg:text-sm 2xl:text-lg font-medium bg-color1 hover:bg-white hover:text-color1 hover:shadow-md  rounded outline-none focus:outline-none">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 md:w-3 md:h-3 lg:w-5 lg:h-5 my-auto">
-                                            <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
-                                            <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
-                                        </svg>
-                                        <span>Chat</span>
-                                    </button>
-                                    <button className="w-full flex justify-center space-x-1 py-2.5 xs:py-2 2xl:py-2.5 px-4 md:px-0 text-white text-sm xs:text-base md:text-xs lg:text-sm 2xl:text-lg font-medium bg-color4 hover:bg-white hover:text-color4 hover:shadow-md  rounded outline-none focus:outline-none">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5 md:w-3 md:h-3 lg:w-5 lg:h-5 my-auto">
-                                            <path d="M13 4.5a2.5 2.5 0 11.702 1.737L6.97 9.604a2.518 2.518 0 010 .792l6.733 3.367a2.5 2.5 0 11-.671 1.341l-6.733-3.367a2.5 2.5 0 110-3.475l6.733-3.366A2.52 2.52 0 0113 4.5z" />
-                                        </svg>
-                                        <span>Share</span>
-                                    </button>
-
-                                </div>
                             </div>
                         </div>
 
@@ -374,7 +367,7 @@ const ProductDetailsForRent = ({ onScroll }) => {
                                         <div className="">
                                             <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2681.svg" />
                                         </div>
-                                        <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-bold bg-color1">
+                                        <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-medium bg-color1">
                                             <span className="2xl:text-xl">€1,550</span>
                                             <span className="text-xs ml-1"></span>
                                         </div>
@@ -423,7 +416,7 @@ const ProductDetailsForRent = ({ onScroll }) => {
                                         <div className="">
                                             <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/Rectangle 2823.svg" />
                                         </div>
-                                        <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-bold bg-color1">
+                                        <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-medium bg-color1">
                                             <span className="2xl:text-xl">€1,550</span>
                                             <span className="text-xs ml-1"></span>
                                         </div>

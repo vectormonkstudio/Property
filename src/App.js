@@ -19,8 +19,7 @@ import {
   Outlet
 } from 'react-router-dom';
 import StudentAccommodation from "./StudentAccommodation/Student Accommodation";
-import Commercial from "./Commercial/Commercial";
-import ParkingForSale from "./ParkingForSale/ParkingForSale";
+import ParkingForSale from "./Parking/ParkingForSale";
 import HollidayHouse from "./HollidayHouse/HollidayHouse";
 import ProductDetailsForRent from "./ProductDetailsForRent/ProductDetailsForRent";
 import ActiveAd from "./AllAds/ActiveAd";
@@ -33,6 +32,15 @@ import Message_1 from "./Message_1/Message_1";
 import Profile from "./Profile/Profile";
 import Profile_2 from "./Profile_2/Profile_2";
 import Profile_3 from "./Profile_3/Profile_3";
+import SavedAds from "./SavedAds/SavedAds";
+import Settings from "./Settings/Settings";
+import CommercialLease from "./Commercial/CommercialLease";
+import CommercialSale from "./Commercial/CommercialSale";
+import ParkingForRent from "./Parking/ParkingForRent";
+import OverviewCommercialSale from "./Commercial/OverviewCommercialSale";
+import OverviewCommercialLease from "./Commercial/OverviewCommercialLease";
+import OverviewParkingForSale from "./Parking/OverviewParkingForSale";
+import OverviewParkingForRent from "./Parking/OverviewParkingForRent";
 
 function App() {
   const [scrollToContent, contentRef] = useScroll()
@@ -48,16 +56,22 @@ function App() {
           <Route path="/buy" element={<Buy />} />
           <Route path="/rent" element={<Rent />} />
           <Route path="/share1" element={<Share1 />} />
-          <Route path="/share2" element={<Share2 />} />
+          {/* <Route path="/share2" element={<Share2 />} /> */}
+         
+          <Route path="/student_accommodation" element={<StudentAccommodation />} />
+          <Route path="/commercial_lease" element={<CommercialLease />} />
+          <Route path="/commercial_sale" element={<CommercialSale />} />
+          <Route path="/parking_for_sale" element={<ParkingForSale />} />
+          <Route path="/parking_for_rent" element={<ParkingForRent />} />
+          <Route path="/holliday_house" element={<HollidayHouse />} />
+
           <Route path="/product_details_for_sell" element={<ProductDetailsForSell />} />
           <Route path="/product_details_for_rent" element={<ProductDetailsForRent />} />
-          <Route path="/add_new_property" element={<AddNewProperty />} />
-          <Route path="/add_new_property2" element={<AddNewProperty2 />} />
+          <Route path="/overview_commercial_sale" element={<OverviewCommercialSale />} />
+          <Route path="/overview_commercial_lease" element={<OverviewCommercialLease />} />
+          <Route path="/overview_parking_for_sale" element={<OverviewParkingForSale />} />
+          <Route path="/overview_parking_for_rent" element={<OverviewParkingForRent />} />
 
-          <Route path="/student_accommodation" element={<StudentAccommodation />} />
-          <Route path="/commercial" element={<Commercial />} />
-          <Route path="/parking_for_sale" element={<ParkingForSale />} />
-          <Route path="/holliday_house" element={<HollidayHouse />} />
 
           <Route path="/my_ads" element={<MyAds />} />
           <Route path="/active_ad" element={<ActiveAd />} />
@@ -70,7 +84,13 @@ function App() {
           <Route path="/Profile_1" element={<Profile />} />
           <Route path="/Profile_2" element={<Profile_2 />} />
           <Route path="/Profile_3" element={<Profile_3 />} />
+          <Route path="/saved_ads" element={<SavedAds />} />
+          <Route path="/settings" element={<Settings />} />
 
+
+
+          {/* <Route path="/add_new_property" element={<AddNewProperty />} /> */}
+          {/* <Route path="/add_new_property2" element={<AddNewProperty2 />} /> */}
 
 
 
@@ -91,13 +111,19 @@ function App() {
       {/* <Share2/> */}
       {/* <ProductDetailsForSell /> */}
       {/* <ProductDetailsForRent/> */}
+      {/* <OverviewCommercialSale/> */}
+      {/* <OverviewCommercialRent/> */}
+      {/* <OverviewParkingForSale/> */}
+      {/* <OverviewParkingForRent/> */}
       {/* <AddNewProperty /> */}
       {/* <AddNewProperty2/> */}
       {/* <Introduction/> */}
       {/* <SubCategories/> */}
       {/* <StudentAccommodation /> */}
-      {/* <Commercial/> */}
+      {/* <CommercialLease/> */}
+      {/* <CommercialSale/> */}
       {/* <ParkingForSale/> */}
+      {/* <ParkingForRent/> */}
       {/* <HollidayHouse/> */}
       {/* <SavedSearches/> */}
       {/* <Message/> */}
@@ -105,6 +131,8 @@ function App() {
       {/* <Profile/> */}
       {/* <Profile_2/> */}
       {/* <Profile_3/> */}
+      {/* <SavedAds/> */}
+      {/* <Settings/> */}
 
 
       {/* <ActiveAd /> */}

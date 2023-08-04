@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const ParkingForSale = ({ onScroll }) => {
+const ParkingForRent = ({ onScroll }) => {
     const [filter, setFilter] = useState(false);
 
     const [sizemin, setSizemin] = useState(false);
@@ -20,7 +20,7 @@ const ParkingForSale = ({ onScroll }) => {
 
             {/* for desktop ==> search */}
             <div className="hidden md:block xl:pt-5 px-4 xs:px-6 sm:px-8 lg:px-20">
-                <h3 className="sm:hidden pb-5 md:text-xl lg:text-2xl font-bold text-color5 ">Property for Sale</h3>
+                <h3 className="sm:hidden pb-5 md:text-xl lg:text-2xl font-bold text-color5 ">Parking For Rent</h3>
                 {/* search */}
                 <div className="sm:flex sm:justify-end">
                     <div className="my-auto sm:w-1/2 md:w-2/5 2xl:w-1/3">
@@ -30,7 +30,7 @@ const ParkingForSale = ({ onScroll }) => {
                         </div>
                     </div>
                 </div>
-                <h3 className=" py-4  md:text-left md:pb-10 md:text-xl lg:text-2xl font-bold text-color5 ">4,301 Commercial Properties To Lease in Ireland</h3>
+                <h3 className=" py-4  md:text-left md:pb-10 md:text-xl lg:text-2xl font-bold text-color5 ">6 Parking Spaces For Rent in Ireland</h3>
             </div>
 
 
@@ -234,7 +234,7 @@ const ParkingForSale = ({ onScroll }) => {
 
                 {/* for mobile ==> search */}
                 <div className="pt-5 md:hidden">
-                    <h3 className="sm:hidden pb-5 md:text-xl lg:text-2xl font-bold text-color5 ">Property for Sale</h3>
+                    <h3 className="sm:hidden pb-5 md:text-xl lg:text-2xl font-bold text-color5 ">Parking For Rent</h3>
                     {/* search */}
                     <div className="sm:flex sm:justify-end">
                         <div className="my-auto sm:w-1/2 md:w-2/5 2xl:w-1/3">
@@ -244,7 +244,7 @@ const ParkingForSale = ({ onScroll }) => {
                             </div>
                         </div>
                     </div>
-                    <h3 className=" py-4  md:text-left md:pb-10 md:text-xl lg:text-2xl font-bold text-color5 ">4,301 Commercial Properties To Lease in Ireland</h3>
+                    <h3 className=" py-4  md:text-left md:pb-10 md:text-xl lg:text-2xl font-bold text-color5 ">6 Parking Spaces For Rent in Ireland</h3>
                 </div>
 
 
@@ -267,9 +267,9 @@ const ParkingForSale = ({ onScroll }) => {
                                 <div className="">
                                     <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/new/Rectangle 2681.svg" />
                                 </div>
-                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-bold bg-color1">
+                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-medium bg-color1">
                                     <span className="2xl:text-xl">€1,550</span>
-                                    <span className="text-xs ml-1"></span>
+                                    <span className="text-xs ml-1">Per Month</span>
                                 </div>
                             </div>
                             <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
@@ -309,9 +309,9 @@ const ParkingForSale = ({ onScroll }) => {
                                 <div className="">
                                     <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/new/Rectangle 2683.svg" />
                                 </div>
-                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-bold bg-color1">
+                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-medium bg-color1">
                                     <span className="2xl:text-xl">€1,550</span>
-                                    <span className="text-xs ml-1"></span>
+                                    <span className="text-xs ml-1">Per Month</span>
                                 </div>
                             </div>
                             <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
@@ -351,9 +351,9 @@ const ParkingForSale = ({ onScroll }) => {
                                 <div className="">
                                     <img className="  rounded-t-sm md:rounded-t-md w-full" src="HomePage5/new/Rectangle 2681.svg" />
                                 </div>
-                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-bold bg-color1">
+                                <div className="relative  -mt-14 ml-4 2xl:-mt-16 2xl:ml-6 w-max px-3 py-1.5 2xl:py-2.5 rounded text-white font-medium bg-color1">
                                     <span className="2xl:text-xl">€1,550</span>
-                                    <span className="text-xs ml-1"></span>
+                                    <span className="text-xs ml-1">Per Month</span>
                                 </div>
                             </div>
                             <div className=" pl-4 space-y-4 pt-10  pr-3 shadow-md rounded-b-sm md:rounded-b-md">
@@ -408,4 +408,4 @@ const ParkingForSale = ({ onScroll }) => {
     )
 }
 
-export default ParkingForSale;
+export default ParkingForRent;
