@@ -41,6 +41,8 @@ import OverviewParkingForSale from "./Parking/OverviewParkingForSale";
 import OverviewParkingForRent from "./Parking/OverviewParkingForRent";
 import OverviewHollidayHouse from "./HollidayHouse/OverviewHollidayHouse";
 import OverviewShare from "./OverviewShare/OverviewShare";
+import OverviewSiteForSale from "./OverviewSiteForSale/OverviewSiteForSale";
+import Subscription from "./Subscription/Subscription";
 
 function App() {
   const [scrollToContent, contentRef] = useScroll()
@@ -57,8 +59,8 @@ function App() {
           <Route path="/rent" element={<Rent />} />
          
           <Route path="/student_accommodation" element={<StudentAccommodation />} />
-          <Route path="/commercial_lease" element={<CommercialLease />} />
           <Route path="/commercial_sale" element={<CommercialSale />} />
+          <Route path="/commercial_lease" element={<CommercialLease />} />
           <Route path="/parking_for_sale" element={<ParkingForSale />} />
           <Route path="/parking_for_rent" element={<ParkingForRent />} />
           <Route path="/holliday_house" element={<HollidayHouse />} />
@@ -71,6 +73,7 @@ function App() {
           <Route path="/overview_parking_for_rent" element={<OverviewParkingForRent />} />
           <Route path="/overview_holliday_house" element={<OverviewHollidayHouse />} />
           <Route path="/overview_share" element={<OverviewShare />} />
+          <Route path="/overview_site_for_sale" element={<OverviewSiteForSale />} />
 
 
           <Route path="/my_ads" element={<MyAds />} />
@@ -86,7 +89,8 @@ function App() {
           <Route path="/Profile_3" element={<Profile_3 />} />
           <Route path="/saved_ads" element={<SavedAds />} />
           <Route path="/settings" element={<Settings />} />
-
+          <Route path="/subscription" element={<Subscription />} />
+     
 
 
           {/* <Route path="/add_new_property" element={<AddNewProperty />} /> */}
@@ -116,6 +120,7 @@ function App() {
       {/* <OverviewParkingForRent/> */}
       {/* <OverviewHollidayHouse/> */}
       {/* <OverviewShare/> */}
+      {/* <OverviewSiteForSale/> */}
 
       {/* <AddNewProperty /> */}
       {/* <AddNewProperty2/> */}
@@ -136,6 +141,7 @@ function App() {
       {/* <Profile_3/> */}
       {/* <SavedAds/> */}
       {/* <Settings/> */}
+      {/* <Subscription/> */}
 
 
       {/* <ActiveAd /> */}

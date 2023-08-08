@@ -35,6 +35,7 @@ module.exports = {
       color17: '#707070',
       color18: '#E8E8E8',
       color19: '#0D5692',
+      color20: '#F3F5F7',
       },
      
       screens: {
