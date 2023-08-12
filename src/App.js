@@ -43,6 +43,7 @@ import OverviewHollidayHouse from "./HollidayHouse/OverviewHollidayHouse";
 import OverviewShare from "./OverviewShare/OverviewShare";
 import OverviewSiteForSale from "./OverviewSiteForSale/OverviewSiteForSale";
 import Subscription from "./Subscription/Subscription";
+import OfficeShare from "./OfficeShare/OfficeShare";
 
 function App() {
   const [scrollToContent, contentRef] = useScroll()
@@ -74,6 +75,7 @@ function App() {
           <Route path="/overview_holliday_house" element={<OverviewHollidayHouse />} />
           <Route path="/overview_share" element={<OverviewShare />} />
           <Route path="/overview_site_for_sale" element={<OverviewSiteForSale />} />
+          <Route path="/office_share" element={<OfficeShare />} />
 
 
           <Route path="/my_ads" element={<MyAds />} />
@@ -121,6 +123,7 @@ function App() {
       {/* <OverviewHollidayHouse/> */}
       {/* <OverviewShare/> */}
       {/* <OverviewSiteForSale/> */}
+      {/* <OfficeShare/> */}
 
       {/* <AddNewProperty /> */}
       {/* <AddNewProperty2/> */}

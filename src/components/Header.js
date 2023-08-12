@@ -131,7 +131,7 @@ const Header = () => {
               <div className="flex w-full md:space-x-6 lg:space-x-8 xl:space-x-14">
                 <a href="/buy" className="hidden md:block my-auto text-white hover:text-color4 text-xs xl:text-base font-bold cursor-pointer hover:scale-75">Buy</a>
                 <a href="/rent" className="hidden md:block my-auto text-white hover:text-color4 text-xs xl:text-base font-bold cursor-pointer hover:scale-75">Rent</a>
-                <a href="/" className="hidden md:block my-auto text-white hover:text-color4 text-xs xl:text-base font-bold cursor-pointer hover:scale-75">Share</a>
+                <a href="/overview_share" className="hidden md:block my-auto text-white hover:text-color4 text-xs xl:text-base font-bold cursor-pointer hover:scale-75">Share</a>
                 <a href="/" className="hidden md:block my-auto text-white hover:text-color4 text-xs xl:text-base font-bold cursor-pointer hover:scale-75">Commercial</a>
                 <a href="/" className="hidden md:block my-auto text-white hover:text-color4 text-xs xl:text-base font-bold cursor-pointer hover:scale-75">About us</a>
                 <a href="/" className="hidden md:block my-auto text-white hover:text-color4 text-xs xl:text-base font-bold cursor-pointer hover:scale-75">Help</a>
